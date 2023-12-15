@@ -10,12 +10,16 @@ from typing import List, Dict, Tuple
 from sklearn.preprocessing import StandardScaler
 
 
-def normalizeDataset(df: pd.DataFrame) -> Tuple[pd.DataFrame, StandardScaler]:
-    scaler: StandardScaler = StandardScaler()
-    scaler.fit(df)
+def normalizeDataset(df: pd.DataFrame,
+                     y_col: str = "popularity") -> Tuple[pd.DataFrame, StandardScaler]:
 
-    scaled_dataset: np.array = scaler.transform(df)
-    scaled_df: pd.DataFrame = pd.DataFrame(scaled_dataset, columns=df.columns)
+    scaler: StandardScaler = StandardScaler()
+    _df: pd.DataFrame = df.copy()
+    _df = _df.drop(y_col, axis=1)
+    scaler.fit(_df)
+
+    scaled_dataset: np.array = scaler.transform(_df)
+    scaled_df: pd.DataFrame = pd.DataFrame(scaled_dataset, columns=_df.columns)
     return scaled_df, scaler
 
 
@@ -43,7 +47,6 @@ def encodeCategorical(df: pd.DataFrame,
         encoder_list.append(encoder)
     return encoder_list, categorical_res_list
 
-
 def run() -> Tuple[pd.DataFrame, pd.DataFrame]:
     config: Dict[DictConfig, ListConfig] = OmegaConf.load("./params.yaml")
     main_df: pd.DataFrame = pd.read_csv(config.data.datasetPath, index_col=[0])
@@ -65,9 +68,7 @@ def run() -> Tuple[pd.DataFrame, pd.DataFrame]:
         config.constant.track_genre_str,
         config.constant.explicit_str
     ]
-
     drop_cols: List[str] = [
-        config.constant.popularity_str,
         config.constant.track_id_str,
         config.constant.album_name_str,
         config.constant.track_name_str
@@ -85,13 +86,13 @@ def run() -> Tuple[pd.DataFrame, pd.DataFrame]:
         sec_main_df[col] = result
 
     x: pd.DataFrame = sec_main_df.drop(drop_cols, axis=1)
-    y: pd.DataFrame = sec_main_df[config.constant.popularity_str]
+    y: pd.DataFrame = main_df[config.constant.popularity_str]
 
     return config, x, y
 
 
-# if __name__ == "__main__":
-#    x, y = run()
-#    print(x.head(1))
-#    print(x.shape)
-#    print(y.shape)
+if __name__ == "__main__":
+    _, x, y = run()
+    print(x.head(1))
+    print(x.shape)
+    print(y.shape)

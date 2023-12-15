@@ -32,5 +32,16 @@ knn_args:
 linreg_args: 
 
 dt_args:
+  min_leaf: 25
+  min_split: 25
 
 rf_args:
+  n_estimator: 100
+  min_leaf: 5
+  min_split: 5
+
+mlflow:
+  mse_train: "mse_train"
+  mse_val: "mse_val"
+  rmse_train: "rmse_train"
+  rmse_val: "rmse_val"
