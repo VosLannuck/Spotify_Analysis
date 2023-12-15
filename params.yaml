@@ -1,0 +1,36 @@
+data:
+  datasetPath: "spotify_dataset.csv"
+constant:
+  danceability_str: "danceability"
+  energy_str: "energy"
+  loudness_str: "loudness"
+  speechiness_str: "speechiness"
+  acousticness_str: "acousticness"
+  instrumentallness_str: "instrumentalness"
+  liveness_str: "liveness"
+  popularity_str: "popularity"
+  valence_str: "valence"
+  tempo_str: "tempo"
+  duration_str: "duration_ms"
+
+  # Cat columns
+  track_id_str: "track_id"
+  artists_str: "artists"
+  album_name_str: "album_name"
+  track_name_str: "track_name"
+  explicit_str: "explicit"
+  track_genre_str: "track_genre"
+
+ms_split:
+  random_state: 0
+  test_size: 0.2
+
+knn_args:
+  n_neighbors: 5
+  weights: "distance"
+  p: 9
+linreg_args: 
+
+dt_args:
+
+rf_args:
