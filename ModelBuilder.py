@@ -54,7 +54,7 @@ def print_model_performance(y_train: np.array, y_train_pred,
     return train_residual_df, val_residual_df
 
 
-def linreg(config: Tuple[DictConfig, ListConfig],
+def linreg(config: Union[DictConfig, ListConfig],
            x_train: np.array, y_train: np.array,
            x_val: np.array, y_val: np.array
            ):
@@ -69,7 +69,7 @@ def linreg(config: Tuple[DictConfig, ListConfig],
                             )
 
 
-def knn(config: Tuple[DictConfig,
+def knn(config: Union[DictConfig,
         ListConfig],
         x_train: np.array, y_train: np.array,
         x_val: np.array, y_val: np.array):
@@ -92,7 +92,7 @@ def knn(config: Tuple[DictConfig,
 
 
 def decision_tree(
-                config: Tuple[DictConfig, ListConfig],
+                config: Union[DictConfig, ListConfig],
                 x_train: np.array, y_train: np.array,
                 x_val: np.array, y_val: np.array):
     dt_args = config.dt_args
@@ -110,7 +110,7 @@ def decision_tree(
                             )
 
 
-def randomforest(config: Tuple[DictConfig, ListConfig],
+def randomforest(config: Union[DictConfig, ListConfig],
                  x_train: np.array, y_train: np.array,
                  x_val: np.array, y_val: np.array
                  ):
@@ -138,13 +138,15 @@ def calculateMetrics(y_train: np.array, y_val: np.array,
 
     rmse_train: float = mean_squared_error(y_train, y_train_pred) * 0.5
     rmse_val: float = mean_squared_error(y_val, y_val_pred) * 0.5
+    print("=========  ==========")
     print("RMSE Train: %g " % (rmse_train))
     print("RMSE VAL : %g" % (rmse_val))
+    print("=========  ==========\n")
     return mse_train, mse_val, rmse_train, rmse_val
 
 
 def robust_fit(x: np.array, y: np.array, cv,
-               config: Tuple[DictConfig, ListConfig],
+               config: Union[DictConfig, ListConfig],
                model: RegressorMixin,
                modelName: str = "LinReg"
                ) -> List[LinearRegression]:
@@ -185,10 +187,15 @@ def getImportance(models: List[Union[RegressorMixin,  Module]],
                   main_df_cols: List[str]):
 
     featureImportance: pd.DataFrame = pd.DataFrame()
+
     for indx, model in enumerate(models):
         _df = pd.DataFrame()
         _df['column'] = main_df_cols
-        _df['feature_importance'] = model.feature_importances_
+
+        if (type(model) is LinearRegression):
+            _df['feature_importance'] = model.coef_
+        else:
+            _df['feature_importance'] = model.feature_importances_
         _df['fold'] = indx + 1
         featureImportance = pd.concat([featureImportance, _df],
                                       axis=0,
@@ -341,12 +348,14 @@ def preserveModel(modelName: ModelName,
     return model
 
 
-def run_models(modelName: ModelName, split: int):
-    config, x, y = DataPreps.run()
+def run_models(config: Union[DictConfig, ListConfig],
+               modelName: ModelName, split: int,
+               target: str):
+    x, y = DataPreps.run(config, target)
     predictors: List[str] = x.columns.values
     x, y = x.values, y.values
     cv = makeSplit(x, y, n_splits=split)
-    model: Union[RegressorMixin, Module] = preserveModel(ModelName.DT,
+    model: Union[RegressorMixin, Module] = preserveModel(modelName,
                                                          config)
     models = robust_fit(x, y, cv, config, model)
     feature_df, grouped = getImportance(models, predictors)

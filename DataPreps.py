@@ -1,11 +1,9 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import sklearn
 
 from sklearn.preprocessing import LabelEncoder
-from omegaconf import OmegaConf, ListConfig, DictConfig
-from typing import List, Dict, Tuple
+from omegaconf import ListConfig, DictConfig
+from typing import List, Tuple, Union
 
 from sklearn.preprocessing import StandardScaler
 
@@ -47,8 +45,8 @@ def encodeCategorical(df: pd.DataFrame,
         encoder_list.append(encoder)
     return encoder_list, categorical_res_list
 
-def run() -> Tuple[pd.DataFrame, pd.DataFrame]:
-    config: Dict[DictConfig, ListConfig] = OmegaConf.load("./params.yaml")
+def run(config: Union[DictConfig, ListConfig],
+        target:str) -> Tuple[pd.DataFrame,pd.DataFrame]:
     main_df: pd.DataFrame = pd.read_csv(config.data.datasetPath, index_col=[0])
     num_cols: List[str] = [
         config.constant.danceability_str,
@@ -76,7 +74,7 @@ def run() -> Tuple[pd.DataFrame, pd.DataFrame]:
 
     dropNa(main_df)
     num_df: pd.DataFrame = main_df.loc[:, num_cols]
-    scaled_df, scaler = normalizeDataset(num_df)
+    scaled_df, scaler = normalizeDataset(num_df, y_col=target)
     scaled_df.reset_index(drop=True, inplace=True)
     main_df.reset_index(drop=True, inplace=True)
     sec_main_df: pd.DataFrame = concatDataset(main_df, scaled_df, num_cols)
@@ -88,7 +86,7 @@ def run() -> Tuple[pd.DataFrame, pd.DataFrame]:
     x: pd.DataFrame = sec_main_df.drop(drop_cols, axis=1)
     y: pd.DataFrame = main_df[config.constant.popularity_str]
 
-    return config, x, y
+    return x, y
 
 
 """
