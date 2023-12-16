@@ -258,9 +258,7 @@ def preserve_params(config, modelName: ModelName):
     elif (modelName == ModelName.ADA_BST):
         params = {
             "n_estimators": config.ada_args.n_estimators,
-            "learning_rate": config.ada_args.lr,
-            "loss": config.ada_args.loss,
-            "random_state": config.ada_args.random_state,
+            "learning_rate": config.ada_args.lr, "loss": config.ada_args.loss, "random_state": config.ada_args.random_state,
         }
     elif (modelName == ModelName.X_BST):
         ...

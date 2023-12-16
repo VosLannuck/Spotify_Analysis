@@ -45,8 +45,9 @@ def encodeCategorical(df: pd.DataFrame,
         encoder_list.append(encoder)
     return encoder_list, categorical_res_list
 
+
 def run(config: Union[DictConfig, ListConfig],
-        target:str) -> Tuple[pd.DataFrame,pd.DataFrame]:
+        target: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
     main_df: pd.DataFrame = pd.read_csv(config.data.datasetPath, index_col=[0])
     num_cols: List[str] = [
         config.constant.danceability_str,
@@ -84,7 +85,7 @@ def run(config: Union[DictConfig, ListConfig],
         sec_main_df[col] = result
 
     x: pd.DataFrame = sec_main_df.drop(drop_cols, axis=1)
-    y: pd.DataFrame = main_df[config.constant.popularity_str]
+    y: pd.DataFrame = main_df[target]
 
     return x, y
 
