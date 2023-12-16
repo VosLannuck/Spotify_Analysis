@@ -20,6 +20,27 @@ constant:
   track_name_str: "track_name"
   explicit_str: "explicit"
   track_genre_str: "track_genre"
+# For Main.py
+cmd:
+  # Supported Model
+  dt: 'decision_tree'
+  rf: 'random_forest' 
+  knn: 'k_nearest_neighbors'
+  ada_bst: 'ada_boost'
+  lin_reg: 'linear_regression'
+
+  # Supported Target
+  dance: "danceability"
+  energy: "energy"
+  loud: "loudness"
+  speech: "speechiness"
+  acoustic: "acousticness"
+  instrumental: "instrumentalness"
+  live: "liveness"
+  popularity: "popularity"
+  valence: "valence"
+  tempo: "tempo"
+  duration: "duration_ms"
 
 ms_split:
   random_state: 0
