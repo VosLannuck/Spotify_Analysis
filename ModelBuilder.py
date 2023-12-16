@@ -8,20 +8,19 @@ import mlflow
 import seaborn as sns
 
 import matplotlib.pyplot as plt
+
 from torch.nn import (Module, Linear, ReLU)
 from sklearn.model_selection import train_test_split, KFold
-from sklearn.preprocessing import StandardScaler
 from sklearn.base import RegressorMixin
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
-
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor
-
 from sklearn.metrics import mean_squared_error
 from typing import List, Dict, Tuple, Any, Union
 from omegaconf import DictConfig, ListConfig
-from enum import Enum
+
+from Main_Enum import ModelName
 
 
 def print_model_performance(y_train: np.array, y_train_pred,
@@ -224,16 +223,6 @@ def makeSplit(x: pd.DataFrame, y: pd.Series,
     return cv
 
 
-class ModelName(Enum):
-    LIN_REG = 1
-    DT = 2
-    KNN = 3
-    RF = 4
-    ADA_BST = 5
-    X_BST = 6
-    MLP = 6
-
-
 def preserve_params(config, modelName: ModelName):
     params: Dict[str, Any] = None
     if (modelName == ModelName.LIN_REG):
@@ -352,11 +341,11 @@ def preserveModel(modelName: ModelName,
     return model
 
 
-def run_models():
+def run_models(modelName: ModelName, split: int):
     config, x, y = DataPreps.run()
     predictors: List[str] = x.columns.values
     x, y = x.values, y.values
-    cv = makeSplit(x, y, n_splits=5)
+    cv = makeSplit(x, y, n_splits=split)
     model: Union[RegressorMixin, Module] = preserveModel(ModelName.DT,
                                                          config)
     models = robust_fit(x, y, cv, config, model)
@@ -373,5 +362,7 @@ def run_models():
     # randomforest(config, x_train, y_train, x_val, y_val)
 
 
+"""
 if __name__ == "__main__":
     run_models()
+"""

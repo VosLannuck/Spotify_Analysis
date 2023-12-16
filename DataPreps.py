@@ -91,8 +91,10 @@ def run() -> Tuple[pd.DataFrame, pd.DataFrame]:
     return config, x, y
 
 
+"""
 if __name__ == "__main__":
     _, x, y = run()
     print(x.head(1))
     print(x.shape)
     print(y.shape)
+"""
