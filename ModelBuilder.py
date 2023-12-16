@@ -1,9 +1,14 @@
+#%%
 import pandas as pd
 import numpy as np
 
 import DataPreps
+import torch
 import mlflow
+import seaborn as sns
 
+import matplotlib.pyplot as plt
+from torch.nn import (Module, Linear, ReLU)
 from sklearn.model_selection import train_test_split, KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.base import RegressorMixin
@@ -11,11 +16,12 @@ from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
 
 from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor
 
 from sklearn.metrics import mean_squared_error
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Any, Union
 from omegaconf import DictConfig, ListConfig
+from enum import Enum
 
 
 def print_model_performance(y_train: np.array, y_train_pred,
@@ -87,10 +93,9 @@ def knn(config: Tuple[DictConfig,
 
 
 def decision_tree(
-    config: Tuple[DictConfig, ListConfig],
-    x_train: np.array, y_train: np.array,
-    x_val: np.array, y_val: np.array
-    ):
+                config: Tuple[DictConfig, ListConfig],
+                x_train: np.array, y_train: np.array,
+                x_val: np.array, y_val: np.array):
     dt_args = config.dt_args
     decisionTree: DecisionTreeRegressor = DecisionTreeRegressor(
         min_samples_leaf=dt_args.min_leaf,
@@ -139,18 +144,17 @@ def calculateMetrics(y_train: np.array, y_val: np.array,
     return mse_train, mse_val, rmse_train, rmse_val
 
 
-def robust_fit_linreg(x: np.array, y: np.array, cv,
-                      config: Tuple[DictConfig, ListConfig],
-                      params: Dict = None,
-                      modelName: str = "LinReg"
-                      ) -> List[LinearRegression]:
-    models: List[LinearRegression] = []
+def robust_fit(x: np.array, y: np.array, cv,
+               config: Tuple[DictConfig, ListConfig],
+               model: RegressorMixin,
+               modelName: str = "LinReg"
+               ) -> List[LinearRegression]:
+    models: List[RegressorMixin] = []
     with mlflow.start_run():
         mlflow.log_param("model_name", modelName)
         for i, (idx_train, idx_val) in enumerate(cv):
             x_train, y_train = x[idx_train], y[idx_train]
             x_val, y_val = x[idx_val], y[idx_val]
-            model: LinearRegression = LinearRegression()
             model.fit(x_train, y_train)
             y_train_pred: np.array = model.predict(x_train)
             y_val_pred: np.array = model.predict(x_val)
@@ -177,37 +181,196 @@ def logMetric(config, mse_train: float,
     mlflow.log_metric(conf_.rmse_train, rmse_train)
     mlflow.log_metric(conf_.rmse_val, rmse_val)
 
-def 
-def robust_fit_decisionTree():
-    ...
 
-def robust_fit_randomForest():
-    ...
-def robust_fit_knn():
-    ...
+def getImportance(models: List[Union[RegressorMixin,  Module]],
+                  main_df_cols: List[str]):
 
-def visualizeImportance(models: RegressorMixin, main_df_cols: List[str]):
-    featureImportance: pd.DataFrame=pd.DataFrame(columns= main_df_cols)
+    featureImportance: pd.DataFrame = pd.DataFrame()
+    for indx, model in enumerate(models):
+        _df = pd.DataFrame()
+        _df['column'] = main_df_cols
+        _df['feature_importance'] = model.feature_importances_
+        _df['fold'] = indx + 1
+        featureImportance = pd.concat([featureImportance, _df],
+                                      axis=0,
+                                      ignore_index=True)
+    grouped = featureImportance.groupby('column')\
+                              .sum()[['feature_importance']]\
+                              .sort_values('feature_importance',
+                                           ascending=False).index
+    return featureImportance, grouped
+
+
+def visualizeImportance(feature_df: pd.DataFrame,
+                        grouped: pd.DataFrame):
+    fig, ax = plt.subplots(figsize=(8, max(6, len(grouped) * .25)))
+    sns.boxenplot(data=feature_df,
+                  x="feature_importance",
+                  y="column",
+                  order=grouped,
+                  ax=ax,
+                  orient="h"
+                  )
+    ax.tick_params(axis="x", rotation=0)
+    ax.grid()
+    fig.tight_layout()
+    plt.show()
 
 
 def makeSplit(x: pd.DataFrame, y: pd.Series,
-              n_splits: int = 5):
+              n_splits: int = 5) -> List[Tuple[np.array, np.array]]:
     fold = KFold(n_splits=n_splits, shuffle=True, random_state=1)
     cv: List[Tuple[np.array, np.array]] = list(fold.split(x, y))
     return cv
 
 
+class ModelName(Enum):
+    LIN_REG = 1
+    DT = 2
+    KNN = 3
+    RF = 4
+    ADA_BST = 5
+    X_BST = 6
+    MLP = 6
+
+
+def preserve_params(config, modelName: ModelName):
+    params: Dict[str, Any] = None
+    if (modelName == ModelName.LIN_REG):
+        params = {
+            "n_jobs": config.linreg_args.n_jobs
+        }
+    elif (modelName == ModelName.DT):
+        params = {
+            "max_depth": config.dt_args.max_depth,
+            "min_samples_split": config.dt_args.min_split,
+            "min_samples_leaf": config.dt_args.min_leaf,
+        }
+    elif (modelName == ModelName.KNN):
+        params = {
+            "n_neighbors": config.knn_args.n_neighbors,
+            "weights": config.knn_args.weights,
+            "n_jobs": -1,
+        }
+    elif (modelName == ModelName.RF):
+        params = {
+            "n_estimators": config.rf_args.n_estimator,
+            "min_samples_split": config.rf_args.min_split,
+            "min_samples_leaf": config.rf_args.min_leaf,
+            "max_depth": config.rf_args.max_depth
+        }
+    elif (modelName == ModelName.ADA_BST):
+        params = {
+            "n_estimators": config.ada_args.n_estimators,
+            "learning_rate": config.ada_args.lr,
+            "loss": config.ada_args.loss,
+            "random_state": config.ada_args.random_state,
+        }
+    elif (modelName == ModelName.X_BST):
+        ...
+    elif (modelName == ModelName.MLP):
+        ...
+    return params
+
+
+def craftLinearRegression(params: Dict = None):
+    if params is None:
+        params = {}
+    return LinearRegression(**params)
+
+
+def craftDecisionTree(params: Dict = None):
+    if params is None:
+        params = {}
+    return DecisionTreeRegressor(**params)
+
+
+def craftKNN(params: Dict = None):
+    if params is None:
+        params = {}
+    return KNeighborsRegressor(**params)
+
+
+def craftRandomForest(params: Dict = None):
+    if params is None:
+        params = {}
+    return RandomForestRegressor(**params)
+
+
+def craftLightGBM(params: Dict = None):
+    if params is None:
+        params = {}
+
+
+def craftAdaBoost(params: Dict = None):
+    if params is None:
+        params = {}
+
+    return AdaBoostRegressor(**params)
+
+
+def craftMLP(params: Dict = None):
+    if params is None:
+        params = {}
+
+    modelSequential = torch.nn.Sequential([
+        Linear(in_features=params.in_features,
+               out_features=params.default_features),
+        ReLU(),
+        Linear(in_features=params.default_features,
+               out_features=params.default_features // 2),
+        ReLU(),
+        Linear(in_features=params.default_features // 2, out_features=1)
+    ])
+
+    return modelSequential
+
+
+def preserveModel(modelName: ModelName,
+                  config: Tuple[DictConfig, ListConfig]):
+    model: RegressorMixin
+    if (modelName == ModelName.DT):
+        params = preserve_params(config, modelName)
+        model = craftDecisionTree(params)
+    elif (modelName == ModelName.LIN_REG):
+        params = preserve_params(config, modelName)
+        model = craftLinearRegression(params)
+    elif (modelName == ModelName.RF):
+        params = preserve_params(config, modelName)
+        model = craftRandomForest(params)
+    elif (modelName == ModelName.KNN):
+        params = preserve_params(config, modelName)
+        model = craftKNN(params)
+    elif (modelName == ModelName.ADA_BST):
+        params = preserve_params(config, modelName)
+        model = craftAdaBoost(params)
+    elif (modelName == ModelName.MLP):
+        # Not yet finish
+        params = preserve_params(config, modelName)
+        model = craftMLP(params)
+
+    return model
+
+
 def run_models():
     config, x, y = DataPreps.run()
+    predictors: List[str] = x.columns.values
     x, y = x.values, y.values
-    ms_split = config.ms_split
-    cv = makeSplit(x,y, n_splits=5)
-    robust_fit_linreg(x, y, cv, config)
+    cv = makeSplit(x, y, n_splits=5)
+    model: Union[RegressorMixin, Module] = preserveModel(ModelName.DT,
+                                                         config)
+    models = robust_fit(x, y, cv, config, model)
+    feature_df, grouped = getImportance(models, predictors)
+    visualizeImportance(feature_df, grouped)
 
-    #x_train, x_val, y_train, y_val = train_test_split(x, y,
+    # Only if you want to test simple model and dont want to run robust_fit
+    # Used for Analysis Error
+
+    # ms_split = config.ms_split
+    # x_train, x_val, y_train, y_val = train_test_split(x, y,
     #                                                 test_size=ms_split.test_size,
     #                                                 random_state=ms_split.random_state)
-    #randomforest(config, x_train, y_train, x_val, y_val)
+    # randomforest(config, x_train, y_train, x_val, y_val)
 
 
 if __name__ == "__main__":
