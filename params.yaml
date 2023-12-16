@@ -26,19 +26,34 @@ ms_split:
   test_size: 0.2
 
 knn_args:
-  n_neighbors: 5
+  n_neighbors: 500
   weights: "distance"
-  p: 9
+
 linreg_args: 
+  n_jobs: -1
+
+ada_args: 
+  n_estimators: 100
+  lr: 1.0
+  loss: "square"
+  random_state: 1
 
 dt_args:
   min_leaf: 25
   min_split: 25
+  max_depth: 12
 
 rf_args:
   n_estimator: 100
   min_leaf: 5
   min_split: 5
+  max_depth: 12
+
+mlp_args:
+  in_features: 12
+  lr: 0.001
+  epoch: 50
+  default_features: 500
 
 mlflow:
   mse_train: "mse_train"
