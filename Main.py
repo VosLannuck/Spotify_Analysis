@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 import ModelBuilder
-import HyperparamsFinder
+import HyperparamsFinder 
 from Main_Enum import ModelName
 from omegaconf import OmegaConf, DictConfig, ListConfig
 from typing import List, Tuple
@@ -20,8 +20,10 @@ supported_targets: List[str] = [config.cmd.dance, config.cmd.energy,
                                 config.cmd.loud, config.cmd.speech,
                                 config.cmd.instrumental, config.cmd.live,
                                 config.cmd.popularity, config.cmd.valence,
-                                config.cmd.tempo, config.cmd.duration
+                                config.cmd.tempo, config.cmd.duration,
+                                config.cmd.acoustic,
                                 ]
+
 # Add a new argument for the model type
 parser.add_argument('-tr', '--train', help="Train a model",
                     choices=supported_models, default=None)
@@ -33,7 +35,7 @@ parser.add_argument('-spt', '--split', help="number of split",
 
 parser.add_argument('-target', '--target',
                     help="Y value you would like to observe",
-                    choices= supported_targets,
+                    choices=supported_targets,
                     default=config.constant.popularity_str)
 
 args = parser.parse_args()
