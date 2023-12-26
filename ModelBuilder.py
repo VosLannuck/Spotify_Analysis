@@ -145,6 +145,56 @@ def calculateMetrics(y_train: np.array, y_val: np.array,
     return mse_train, mse_val, rmse_train, rmse_val
 
 
+def getMisclassification(y_train, y_val,
+                         y_train_pred, y_val_pred):
+    miss_index_yTrain: np.array = np.where(y_train != y_train_pred)[0]
+    miss_index_y_val: np.array = np.where(y_val != y_val_pred)[0]
+    return miss_index_yTrain, miss_index_y_val
+
+
+def errorAnalysis_fit(x_train: np.array, y_train: np.array,
+                      x_val: np.array, y_val: np.array,
+                      df: pd.DataFrame,
+                      model: RegressorMixin,
+                      modelName: str = "LinReg"):
+
+    model.fit(x_train, y_train)
+    y_train_pred = model.predict(x_train)
+    y_val_pred = model.predict(x_val)
+    calculateMetrics(y_train, y_val,
+                     y_train_pred, y_val_pred)
+
+    miss_indx_train, miss_indx_val = getMisclassification(y_train, y_val,
+                                                          y_train_pred,
+                                                          y_val_pred)
+    df_miss = df.loc[miss_indx_train, :]
+    df_miss['popularity'] = y_train[miss_indx_train]
+    df_miss['predicted_train'] = y_train_pred[miss_indx_train]
+    df_miss['model_name'] = modelName.name
+
+    df_miss_val = df.loc[miss_indx_val, :]
+    df_miss_val['popularity'] = y_val[miss_indx_val]
+    df_miss_val['predicted_val'] = y_val_pred[miss_indx_val]
+    df_miss_val['model_name'] = modelName.name
+
+    return df_miss, df_miss_val
+
+
+def preserveRealValues(df1: pd.DataFrame,
+                       scaler, cat_encoder,
+                       list_cat: List[str]
+                       ):
+
+    scaler_f: List[str] = scaler.feature_names_in_
+    scaler_encoders: List = cat_encoder
+    df1_copy: pd.DataFrame = df1.copy()
+    df1_copy[scaler_f] = scaler.inverse_transform(df1[scaler_f].values)
+    for i, scaler_cat in enumerate(scaler_encoders):
+        df1_copy[list_cat[i]] = scaler_encoders[i].inverse_transform(df1[list_cat[i]].values)
+
+    return df1_copy
+
+
 def robust_fit(x: np.array, y: np.array, cv,
                config: Union[DictConfig, ListConfig],
                model: RegressorMixin,
@@ -345,11 +395,20 @@ def preserveModel(modelName: ModelName,
 
     return model
 
+def run_model_error_analysis(config: Union[DictConfig, ListConfig],
+                             modelName: ModelName, split: int,
+                             target: str):
+    x, y = DataPreps.run(config, target)
+    predictors: List[str] = x.columns.values
+    x, y = x.values, y.values
+    model: Union[RegressorMixin, Module] = preserveModel(modelName,
+                                                         config)
+    
 
 def run_models(config: Union[DictConfig, ListConfig],
                modelName: ModelName, split: int,
                target: str):
-    x, y = DataPreps.run(config, target)
+    x, y, _, _ = DataPreps.run(config, target)
     predictors: List[str] = x.columns.values
     x, y = x.values, y.values
     cv = makeSplit(x, y, n_splits=split)

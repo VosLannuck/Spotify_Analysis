@@ -87,7 +87,7 @@ def run(config: Union[DictConfig, ListConfig],
     x: pd.DataFrame = sec_main_df.drop(drop_cols, axis=1)
     y: pd.DataFrame = main_df[target]
 
-    return x, y
+    return x, y, scaler, cat_encoders
 
 
 """
