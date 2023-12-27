@@ -1,5 +1,5 @@
 data:
-  datasetPath: "spotify_dataset.csv"
+ datasetPath: "spotify_dataset.csv"
 constant:
   danceability_str: "danceability"
   energy_str: "energy"
@@ -28,6 +28,8 @@ cmd:
   knn: 'k_nearest_neighbors'
   ada_bst: 'ada_boost'
   lin_reg: 'linear_regression'
+  lgbm: "light_gbm"
+  xgboost: "xgboost"
 
   # Supported Target
   dance: "danceability"
@@ -70,6 +72,20 @@ rf_args:
   min_split: 5
   max_depth: 12
 
+lg_args:
+  objective: "rmse"
+  learning_rate: 0.1
+  reg_lambda: 1.0
+  reg_alpha: 0.1
+  max_depth: 7
+  n_estimators: 1000
+  colsample_bytree: .5
+  min_child_samples: 10
+  subsample_freq: 3
+  subsample: 0.9
+  importance_type: 'gain'
+  random_state: 71
+  num_leaves: 62
 mlp_args:
   in_features: 12
   lr: 0.001

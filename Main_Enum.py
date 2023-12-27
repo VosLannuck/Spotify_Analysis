@@ -7,5 +7,7 @@ class ModelName(Enum):
     KNN = 3
     RF = 4
     ADA_BST = 5
-    X_BST = 6
-    MLP = 6
+    LIGHT_GBM = 7
+    X_BST = 8
+    MLP = 9
+

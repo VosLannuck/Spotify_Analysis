@@ -14,7 +14,9 @@ config: Tuple[DictConfig, ListConfig] = OmegaConf.load('params.yaml')
 
 supported_models: List[str] = [config.cmd.dt, config.cmd.rf,
                                config.cmd.knn, config.cmd.ada_bst,
-                               config.cmd.lin_reg]
+                               config.cmd.lin_reg,
+                               config.cmd.lgbm,
+                               config.cmd.xgboost]
 
 supported_targets: List[str] = [config.cmd.dance, config.cmd.energy,
                                 config.cmd.loud, config.cmd.speech,
@@ -52,6 +54,10 @@ def parseToModelName(modelName: str) -> ModelName:
         return ModelName.ADA_BST
     elif (modelName == config.cmd.lin_reg):
         return ModelName.LIN_REG
+    elif (modelName == config.cmd.lgbm):
+        return ModelName.LIGHT_GBM
+    elif (modelName == config.cmd.xgboost):
+        return ModelName.X_BST
 
 
 def modelToRun(args):

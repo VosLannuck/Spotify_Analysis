@@ -6,6 +6,8 @@ import DataPreps
 import torch
 import mlflow
 import seaborn as sns
+import lightgbm as lgbm
+import xgboost
 
 import matplotlib.pyplot as plt
 
@@ -223,6 +225,35 @@ def robust_fit(x: np.array, y: np.array, cv,
     return models
 
 
+def allFit(x: np.array, y: np.array, cv,
+           config: Union[DictConfig, ListConfig],
+           model: RegressorMixin,
+           modelName: str = "LinReg"
+    ):
+    with mlflow.start_run():
+        rmse_train_list, rmse_val_list = [], []
+        mlflow.log_param("model_name", modelName)
+        for i, (idx_train, idx_val) in enumerate(cv):
+            x_train, y_train = x[idx_train], y[idx_train]
+            x_val, y_val = x[idx_val], y[idx_val]
+            model.fit(x_train, y_train)
+            y_train_pred: np.array = model.predict(x_train)
+            y_val_pred: np.array = model.predict(x_val)
+
+            mse_train, mse_val, rmse_train, rmse_val = calculateMetrics(y_train,
+                                                                        y_val,
+                                                                        y_train_pred,
+                                                                        y_val_pred)
+            logMetric(config, mse_train,
+                      mse_val, rmse_train,
+                      rmse_val)
+
+            rmse_train_list.append(rmse_train)
+            rmse_val_list.append(rmse_val)
+
+    return np.mean(rmse_train), np.mean(rmse_val)
+
+
 def logMetric(config, mse_train: float,
               mse_val: float, rmse_train: float,
               rmse_val: float):
@@ -308,10 +339,37 @@ def preserve_params(config, modelName: ModelName):
     elif (modelName == ModelName.ADA_BST):
         params = {
             "n_estimators": config.ada_args.n_estimators,
-            "learning_rate": config.ada_args.lr, "loss": config.ada_args.loss, "random_state": config.ada_args.random_state,
+            "learning_rate": config.ada_args.lr,
+            "loss": config.ada_args.loss,
+            "random_state": config.ada_args.random_state,
+        }
+    elif (modelName == ModelName.LIGHT_GBM):
+        params = {
+            "objective": config.lg_args.objective,
+            "learning_rate": config.lg_args.learning_rate,
+            "reg_lambda": config.lg_args.reg_lambda,
+            "reg_alpha": config.lg_args.reg_alpha,
+            "max_depth": config.lg_args.max_depth,
+            "n_estimators": config.lg_args.n_estimators,
+            "colsample_bytree": config.lg_args.colsample_bytree,
+            "min_child_samples": config.lg_args.min_child_samples,
+            "subsample_freq": config.lg_args.subsample_freq,
+            "subsample": config.lg_args.subsample,
+            "importance_type": config.lg_args.importance_type,
+            "random_state": 2,
+            "num_leaves": config.lg_args.num_leaves
         }
     elif (modelName == ModelName.X_BST):
-        ...
+        params = {
+            "scale_pos_weight": 1,
+            "learning_rate": 0.3,
+            "colsample_bytree": 0.3,
+            "subsample": 0.8,
+            "n_estimators": 1000,
+            "reg_alpha": 0.3,
+            "max_depth": 10,
+            "gamma": 1
+        }
     elif (modelName == ModelName.MLP):
         ...
     return params
@@ -344,6 +402,7 @@ def craftRandomForest(params: Dict = None):
 def craftLightGBM(params: Dict = None):
     if params is None:
         params = {}
+    return lgbm.LGBMRegressor(**params)
 
 
 def craftAdaBoost(params: Dict = None):
@@ -351,6 +410,12 @@ def craftAdaBoost(params: Dict = None):
         params = {}
 
     return AdaBoostRegressor(**params)
+
+
+def craftXGBoost(params: Dict = None):
+    if params is None:
+        params = {}
+    return xgboost.XGBRegressor(**params)
 
 
 def craftMLP(params: Dict = None):
@@ -376,18 +441,31 @@ def preserveModel(modelName: ModelName,
     if (modelName == ModelName.DT):
         params = preserve_params(config, modelName)
         model = craftDecisionTree(params)
+
     elif (modelName == ModelName.LIN_REG):
         params = preserve_params(config, modelName)
         model = craftLinearRegression(params)
+
     elif (modelName == ModelName.RF):
         params = preserve_params(config, modelName)
         model = craftRandomForest(params)
+
     elif (modelName == ModelName.KNN):
         params = preserve_params(config, modelName)
         model = craftKNN(params)
+
     elif (modelName == ModelName.ADA_BST):
         params = preserve_params(config, modelName)
         model = craftAdaBoost(params)
+
+    elif (modelName == ModelName.LIGHT_GBM):
+        params = preserve_params(config, modelName)
+        model = craftLightGBM(params)
+
+    elif (modelName == ModelName.X_BST):
+        params = preserve_params(config, modelName)
+        model = craftXGBoost(params)
+
     elif (modelName == ModelName.MLP):
         # Not yet finish
         params = preserve_params(config, modelName)
@@ -401,9 +479,7 @@ def run_model_error_analysis(config: Union[DictConfig, ListConfig],
     x, y = DataPreps.run(config, target)
     predictors: List[str] = x.columns.values
     x, y = x.values, y.values
-    model: Union[RegressorMixin, Module] = preserveModel(modelName,
-                                                         config)
-    
+    #model: Union[RegressorMixin, Module] = preserveModel(modelName)
 
 def run_models(config: Union[DictConfig, ListConfig],
                modelName: ModelName, split: int,
@@ -427,6 +503,44 @@ def run_models(config: Union[DictConfig, ListConfig],
     #                                                 random_state=ms_split.random_state)
     # randomforest(config, x_train, y_train, x_val, y_val)
 
+def parseToModelName(config, modelName: str) -> ModelName:
+
+    if (modelName == config.cmd.dt):
+        return ModelName.DT
+    elif (modelName == config.cmd.rf):
+        return ModelName.RF
+    elif (modelName == config.cmd.knn):
+        return ModelName.KNN
+    elif (modelName == config.cmd.ada_bst):
+        return ModelName.ADA_BST
+    elif (modelName == config.cmd.lin_reg):
+        return ModelName.LIN_REG
+    elif (modelName == config.cmd.lgbm):
+        return ModelName.LIGHT_GBM
+    elif (modelName == config.cmd.xgboost):
+        return ModelName.X_BST
+
+def runAllModels(config: Union[DictConfig, ListConfig],
+                 modelNames: List[ModelName], split: int,
+                 target: str):
+
+    all_result: pd.DataFrame = pd.DataFrame(columns=['model', 'rmse_train', 'rmse_val'])
+    x, y, _, _ = DataPreps.run(config, target)
+    x, y = x.values, y.values
+    cv = makeSplit(x, y, n_splits=split)
+    for model_name in modelNames:
+        model_name = parseToModelName(config, model_name)
+        model = preserveModel(model_name,
+                              config)
+
+        rmse_train, rmse_val = allFit(x, y, cv, config, model)
+        new_observation = {"model": model_name,
+                           "rmse_train": rmse_train,
+                           "rmse_val": rmse_val}
+
+        all_result = pd.concat([all_result, pd.DataFrame(new_observation, index=[0])],
+                               ignore_index=True)
+    return all_result
 
 """
 if __name__ == "__main__":
