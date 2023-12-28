@@ -18,22 +18,22 @@ def getPercentageBasedCol(df: pd.DataFrame,
                           cat_column: str,
                           columns: str,
                           target: str,
-                          verbose: bool = False,
+                          bigger: bool = True,
                           n=80):
     df_temp: pd.DataFrame = pd.DataFrame(columns=[cat_column, "percent"])
 
     for col in columns:
         df_t: pd.DataFrame = df[df[cat_column] == col]
         df_t = df_t.sort_values(target, ascending=False )
-        percentage = len(df_t[df_t[target] >= n]) / len(df_t) * 100
+        if (bigger == True):
+            percentage = len(df_t[df_t[target] >= n]) / len(df_t) * 100
+        else: 
+            percentage = len(df_t[df_t[target] < n]) / len(df_t) * 100
         new_obs = {cat_column: col, 'percent': percentage}
 
         df_temp = pd.concat([df_temp, pd.DataFrame(new_obs,
                                                    index=[0])],
                             ignore_index=True)
-        if verbose == True:
-            print(f"{col} {cat_column} has : {percentage} percent songs above {n} {target}")
-
     return df_temp.sort_values('percent', ascending=False)
 
 
@@ -99,23 +99,28 @@ def plotHistOfTheTarget(true: np.ndarray, pred: np.ndarray):
 def plotErrorAnalysisCat_num(df_real: pd.DataFrame, cat_column: str,
                       target_column: str, pred_colum: str,
                       limit_resid_1: int, limit_resid_2: int,
-                      threshold: int, n_pie: int):
+                             threshold: int, n_pie: int, isBigger: bool):
     real_array: np.ndarray = df_real[target_column].values
     pred_array: np.array = df_real[pred_colum].values
     filtered_res: np.ndarray = filterResidual(df_real, target_column,
                                               pred_colum,  limit_resid_1, 
                                               limit_resid_2)
-    filtered_rate: pd.DataFrame = groupedAndSorted(filtered_res, cat_column, target_column )
+    filtered_rate: pd.DataFrame = groupedAndSorted(filtered_res, cat_column,
+                                                   target_column )
 
-    percentage_df = getPercentageBasedCol(filtered_res, cat_column, filtered_rate.index,
-                                          target_column, threshold)[:n_pie]
+    percentage_df = getPercentageBasedCol(filtered_res,
+                                          cat_column,
+                                          filtered_rate.index,
+                                          target_column,
+                                          bigger=isBigger,
+                                          n=threshold)[:n_pie]
     print(percentage_df)
     plotResidualOfColumns(real_array,
                           pred_array)
     #makePie(percentage_df['percent'], labels=percentage_df[cat_column],
      #       title="Not")
     
-    makeHorizontalBar(percentage_df['percent'], percentage_df[cat_column],)
+    makeHorizontalBar(y=percentage_df['percent'], x=percentage_df[cat_column],ylim=(0, 20))
 
 def plotHistOfPrediction(df_real_1, df_real_2,
                          target_column: str="popularity",
