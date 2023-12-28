@@ -356,7 +356,7 @@ def preserve_params(config, modelName: ModelName):
             "subsample_freq": config.lg_args.subsample_freq,
             "subsample": config.lg_args.subsample,
             "importance_type": config.lg_args.importance_type,
-            "random_state": 2,
+            "random_state": 71,
             "num_leaves": config.lg_args.num_leaves
         }
     elif (modelName == ModelName.X_BST):

@@ -38,7 +38,7 @@ def getPercentageBasedCol(df: pd.DataFrame,
 
 
 def makePie(data: np.ndarray, labels: np.ndarray, title: str):
-    ax = plt.pie(x=data, labels=labels, autopct="%.0f%%")
+    ax = plt.pie(x=data, labels=labels)
     #plt.title(title)
     plt.show()
 
@@ -67,7 +67,7 @@ def getNSongsBasedOnGenre(df: pd.DataFrame,
 def plotResidualOfColumns(true_values: np.ndarray,
                              pred_values: np.ndarray):
     residual: np.ndarray = pred_values - true_values
-    sns.histplot(x=range(len(true_values)), y=residual, kde=True, bins=100)
+    sns.histplot( x=residual, kde=True, bins=100)
     plt.show()
 
 
@@ -109,10 +109,13 @@ def plotErrorAnalysisCat_num(df_real: pd.DataFrame, cat_column: str,
 
     percentage_df = getPercentageBasedCol(filtered_res, cat_column, filtered_rate.index,
                                           target_column, threshold)[:n_pie]
+    print(percentage_df)
     plotResidualOfColumns(real_array,
                           pred_array)
-    makePie(percentage_df['percent'], labels=percentage_df[cat_column],
-            title="Not")
+    #makePie(percentage_df['percent'], labels=percentage_df[cat_column],
+     #       title="Not")
+    
+    makeHorizontalBar(percentage_df['percent'], percentage_df[cat_column],)
 
 def plotHistOfPrediction(df_real_1, df_real_2,
                          target_column: str="popularity",
