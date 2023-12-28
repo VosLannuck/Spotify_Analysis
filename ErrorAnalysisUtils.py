@@ -120,7 +120,7 @@ def plotErrorAnalysisCat_num(df_real: pd.DataFrame, cat_column: str,
     #makePie(percentage_df['percent'], labels=percentage_df[cat_column],
      #       title="Not")
     
-    makeHorizontalBar(y=percentage_df['percent'], x=percentage_df[cat_column],ylim=(0, 20))
+    makeHorizontalBar(y=percentage_df['percent'], x=percentage_df[cat_column],ylim=(0, 60))
 
 def plotHistOfPrediction(df_real_1, df_real_2,
                          target_column: str="popularity",
@@ -134,4 +134,13 @@ def plotHistOfPrediction(df_real_1, df_real_2,
     plotHistOfTheTarget(real_array, pred_array)
     plotHistOfTheTarget(val_array, val_pred)
 
+def filterNumColumBasedN(df: pd.DataFrame, num_col: str,
+                         threshold: int ):
+    return df[(df[num_col] >= -1*threshold) & (df[num_col] <= threshold)]
 
+def filterNumColumBasedNRange(df: pd.DataFrame, num_col: str,
+                              threshold_1: int, threshold_2: int ):
+    df_tmp: pd.DataFrame = pd.DataFrame(columns=df.columns)
+    df_tmp = pd.concat([df_tmp, df[(df[num_col] >= -1*threshold_1) & (df[num_col] <= -1*threshold_2)]],ignore_index=True)
+    df_tmp = pd.concat([df_tmp, df[(df[num_col] >= threshold_1) & (df[num_col] <= threshold_2)]], ignore_index=True)
+    return df_tmp
