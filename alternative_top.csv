@@ -1,0 +1,169 @@
+,track_id,artists,album_name,track_name,popularity,duration_ms,explicit,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature,track_genre
+3003,2QjOHCTQ1Jl3zawyYOpxh6,The Neighbourhood,I Love You.,Sweater Weather,93,240400,False,0.612,0.807,10,-2.81,1,0.0336,0.0495,0.0177,0.101,0.398,124.053,4,alternative
+3000,5E30LdtzQTGqRvNd7l6kG5,The Neighbourhood,Wiped Out!,Daddy Issues,87,260173,False,0.588,0.521,10,-9.461,1,0.0329,0.0678,0.149,0.123,0.337,85.012,4,alternative
+3300,73vIOb4Q7YN6HeJTbscRx5,Oliver Tree;Robin Schulz,Miss You,Miss You,87,206000,True,0.587,0.742,6,-6.64,0,0.0529,0.0128,0.00107,0.146,0.199,145.007,4,alternative
+3002,2K7xn816oNHJZ0aVqdQsha,The Neighbourhood,Hard To Imagine The Neighbourhood Ever Changing,Softcore,86,206280,False,0.575,0.568,9,-5.509,0,0.03,0.0484,0.000417,0.286,0.37,93.986,4,alternative
+3004,4fouWK6XVHhzl78KzQ1UjL,GAYLE,abcdefu,abcdefu,86,168601,True,0.695,0.54,4,-5.692,1,0.0493,0.299,0.0,0.367,0.415,121.932,4,alternative
+3257,003vvx7Niy0yvhvHt4a68B,The Killers,Hot Fuss,Mr. Brightside,86,222973,False,0.352,0.911,1,-5.23,1,0.0747,0.00121,0.0,0.0995,0.236,148.033,4,alternative
+3006,60a0Rd6pjrkxjPbaKzXjfq,Linkin Park,Hybrid Theory (Bonus Edition),In the End,85,216880,False,0.556,0.864,3,-5.87,0,0.0584,0.00958,0.0,0.209,0.4,105.143,4,alternative
+3154,70LcF31zb1H0PyJoS1Sx1r,Radiohead,Pablo Honey,Creep,85,238640,True,0.515,0.43,7,-9.935,1,0.0372,0.0097,0.000133,0.129,0.104,91.844,4,alternative
+3217,3dPQuX8Gs42Y7b454ybpMR,The White Stripes,Elephant,Seven Nation Army,84,232106,False,0.743,0.446,4,-7.807,0,0.0683,0.0039,0.118,0.337,0.278,123.596,4,alternative
+3569,5UWwZ5lm5PKu6eKsHAGxOk,Foo Fighters,The Colour And The Shape,Everlong,84,250546,False,0.413,0.881,11,-5.541,0,0.0367,5.99e-05,0.000308,0.0805,0.364,158.066,4,alternative
+3407,31AOj9sFz2gM0O3hMARRBx,R.E.M.,Out Of Time (25th Anniversary Edition),Losing My Religion,84,268426,False,0.666,0.855,9,-5.051,0,0.0295,0.179,1.2e-06,0.0987,0.803,125.639,4,alternative
+3255,0d28khcov6AiegSCpG5TuT,Gorillaz,Demon Days,Feel Good Inc.,84,222640,False,0.818,0.705,6,-6.679,1,0.177,0.00836,0.00233,0.613,0.772,138.559,4,alternative
+3100,7zwn1eykZtZ5LODrf7c0tS,The Neighbourhood,Hard To Imagine The Neighbourhood Ever Changing,You Get Me So High,83,153000,False,0.551,0.881,7,-6.099,0,0.0542,0.186,0.0791,0.152,0.387,88.036,4,alternative
+3059,4CeeEOM32jQcH3eN9Q2dGj,Nirvana,Nevermind (Remastered),Smells Like Teen Spirit,83,301920,False,0.502,0.912,1,-4.556,1,0.0564,2.55e-05,0.000173,0.106,0.72,116.761,4,alternative
+3054,4kbj5MwxO1bq9wjT5g9HaA,WALK THE MOON,TALKING IS HARD,Shut Up and Dance,83,199080,False,0.578,0.866,1,-3.804,1,0.0619,0.00701,0.0,0.257,0.619,128.038,4,alternative
+3050,2Y0iGXY6m6immVb2ktbseM,MGMT,Little Dark Age,Little Dark Age,83,299960,False,0.705,0.712,6,-6.156,1,0.0385,0.0102,0.000855,0.1,0.62,97.512,4,alternative
+3256,2DlHlPMa4M17kufBvI2lEN,System Of A Down,Toxicity,Chop Suey!,83,210240,False,0.417,0.934,7,-3.908,0,0.119,0.000278,0.0015,0.132,0.287,127.066,4,alternative
+3007,2nLtzopw4rPReszdYBJU6h,Linkin Park,Meteora,Numb,83,185586,False,0.496,0.863,9,-4.153,1,0.0381,0.0046,0.0,0.639,0.243,110.018,4,alternative
+3201,0COqiPhxzoWICwFCS4eZcp,Evanescence,Fallen,Bring Me To Life,82,235893,False,0.331,0.943,4,-3.188,0,0.0698,0.00721,2.06e-06,0.242,0.296,94.612,4,alternative
+3464,3ZOEytgrvLwQaqXreDs2Jx,Red Hot Chili Peppers,By the Way (Deluxe Edition),Can't Stop,82,269000,False,0.618,0.938,9,-3.442,1,0.0456,0.0179,0.0,0.167,0.875,91.455,4,alternative
+3459,3d9DChrdc6BOeFsbrZ3Is0,Red Hot Chili Peppers,Blood Sugar Sex Magik (Deluxe Edition),Under the Bridge,82,264306,False,0.559,0.345,4,-13.496,1,0.0459,0.0576,0.000105,0.141,0.458,84.581,4,alternative
+3218,10nyNJ6zNy2YVYLrcwLccB,Radiohead,OK Computer,No Surprises,82,229120,False,0.255,0.393,5,-10.654,1,0.0278,0.0577,0.00361,0.113,0.118,76.426,4,alternative
+3253,64dLd6rVqDLtkXFYrEUHIU,Gorillaz;Tame Impala;Bootie Brown,New Gold (feat. Tame Impala and Bootie Brown),New Gold (feat. Tame Impala and Bootie Brown),82,215149,True,0.695,0.923,1,-3.93,0,0.0522,0.0425,0.0469,0.116,0.551,108.014,3,alternative
+3216,48UPSzbZjgc449aqz8bxox,Red Hot Chili Peppers,Californication (Deluxe Edition),Californication,82,329733,False,0.592,0.767,9,-2.788,0,0.027,0.0021,0.00165,0.127,0.328,96.483,4,alternative
+3454,0snQkGI5qnAmohLE7jTsTn,System Of A Down,Toxicity,Toxicity,81,218933,False,0.413,0.873,8,-4.151,1,0.0536,0.000264,0.00249,0.204,0.48,116.68,3,alternative
+3005,07MDkzWARZaLEdKxo6yArG,THE ANXIETY;WILLOW;Tyler Cole,THE ANXIETY,Meet Me At Our Spot,81,162680,True,0.773,0.47,2,-7.93,1,0.0299,0.0153,0.000193,0.0851,0.399,94.995,4,alternative
+3877,6TfBA04WJ3X1d1wXhaCFVT,The Offspring,"Rise And Fall, Rage And Grace","You're Gonna Go Far, Kid",81,177826,True,0.55,0.917,0,-3.159,1,0.0638,0.00428,0.0,0.197,0.601,126.115,4,alternative
+3158,77loZpT5Y5PRP1S451P9Yz,Hoobastank,The Reason (15th Anniversary Deluxe),The Reason,81,232800,False,0.472,0.671,4,-4.649,1,0.029,0.0129,0.0,0.159,0.0681,82.952,4,alternative
+3706,4sNG6zQBmtq7M8aeeKJRMQ,Declan McKenna,What Do You Think About the Car?,Brazil,80,252306,False,0.687,0.617,4,-5.213,1,0.0287,0.0941,1.27e-05,0.0898,0.665,121.079,4,alternative
+3658,0gmbgwZ8iqyMPmXefof8Yf,Nickelback,Silver Side Up,How You Remind Me,80,223840,False,0.446,0.764,10,-5.042,1,0.033,0.00135,0.0,0.099,0.543,172.094,4,alternative
+3354,2iUmqdfGZcHIhS3b9E9EWq,Neon Trees,Picture Show,Everybody Talks,80,177280,False,0.471,0.924,8,-3.906,1,0.0586,0.00301,0.0,0.313,0.725,154.961,4,alternative
+3710,64BbK9SFKH2jk86U3dGj2P,Red Hot Chili Peppers,Californication (Deluxe Edition),Otherside,80,255373,False,0.458,0.795,0,-3.265,1,0.0574,0.00316,0.000202,0.0756,0.513,123.229,4,alternative
+3150,2xql0pid3EUwW38AsywxhV,The Neighbourhood,Hard To Imagine The Neighbourhood Ever Changing,Reflections,80,244013,False,0.648,0.594,11,-7.027,0,0.0293,0.114,0.0462,0.116,0.544,113.983,4,alternative
+3811,6ZOBP3NvffbU4SZcrnt1k6,3 Doors Down,The Better Life,Kryptonite,80,233933,False,0.545,0.865,11,-5.708,0,0.0286,0.00664,1.1e-05,0.168,0.543,99.009,4,alternative
+3570,57iDDD9N9tTWe75x6qhStw,The Verve,Urban Hymns (Remastered 2016),Bitter Sweet Symphony,80,357266,False,0.356,0.917,9,-6.006,1,0.0479,0.0335,0.0,0.406,0.518,171.176,4,alternative
+3617,59WN2psjkt1tyaxjspN8fp,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),Killing In The Name,80,313573,True,0.466,0.833,7,-4.215,1,0.304,0.0266,0.0,0.0327,0.661,88.785,4,alternative
+3509,61mWefnWQOLf90gepjOCb3,Slipknot,Vol. 3: The Subliminal Verses,Duality,80,252613,False,0.354,0.982,4,-3.026,0,0.168,0.000237,0.000294,0.204,0.194,143.772,4,alternative
+3305,1foMv2HQwfQ2vntFf9HFeG,Gorillaz,Plastic Beach,Rhinestone Eyes,80,200173,False,0.676,0.703,8,-5.815,0,0.0302,0.0869,0.000687,0.0463,0.852,92.761,4,alternative
+3507,5W8YXBz9MTIDyrpYaCg2Ky,Papa Roach,Infest,Last Resort,80,199906,True,0.589,0.89,4,-3.719,0,0.0603,0.000481,0.00082,0.201,0.692,90.598,4,alternative
+3259,2aibwv5hGXSgw7Yru8IYTO,Red Hot Chili Peppers,Stadium Arcadium,Snow (Hey Oh),80,334666,False,0.427,0.9,11,-3.674,1,0.0499,0.116,1.75e-05,0.119,0.599,104.655,4,alternative
+3783,7x8dCjCr0x6x2lXKujYD34,Foo Fighters,"Echoes, Silence, Patience & Grace",The Pretender,79,269373,False,0.433,0.959,9,-4.04,1,0.0431,0.000917,0.0,0.028,0.365,172.984,4,alternative
+3009,0eu4C55hL6x29mmeAjytzC,Oliver Tree,"Ugly is Beautiful: Shorter, Thicker & Uglier (Deluxe)",Life Goes On,79,161803,False,0.7,0.49,0,-5.187,1,0.076,0.186,0.0,0.117,0.569,79.982,4,alternative
+3512,3cfOd4CMv2snFaKAnMdnvK,Smash Mouth,Astro Lounge,All Star,79,200373,False,0.731,0.867,11,-5.881,1,0.032,0.0395,0.0,0.0861,0.776,104.019,4,alternative
+3353,5ruzrDWcT0vuJIOMW7gMnW,The Strokes,The New Abnormal,The Adults Are Talking,79,309053,False,0.593,0.749,5,-5.67,1,0.0475,0.0113,0.106,0.314,0.649,164.959,4,alternative
+3264,2RsAajgo0g7bMCHxwH3Sk0,Nirvana,Nevermind (Remastered),Come As You Are,79,218920,False,0.5,0.824,4,-5.846,0,0.0388,0.00016,0.00161,0.0916,0.539,120.125,4,alternative
+3702,5r5cp9IpziiIsR6b93vcnQ,Empire of the Sun,Walking On A Dream (10th Anniversary Edition),Walking On A Dream,79,198440,False,0.871,0.701,5,-5.594,0,0.0458,0.257,7.52e-06,0.0589,0.716,126.975,4,alternative
+3712,1G391cbiT3v3Cywg8T7DM1,Red Hot Chili Peppers,Californication (Deluxe Edition),Scar Tissue,79,215906,False,0.595,0.717,0,-4.803,1,0.0295,0.0779,0.00274,0.108,0.547,88.969,4,alternative
+3367,11LmqTE2naFULdEP94AUBa,Nirvana,In Utero - 20th Anniversary - Deluxe Edition,Heart-Shaped Box,79,281160,False,0.256,0.641,1,-10.283,1,0.0552,0.199,0.0329,0.0853,0.382,203.006,4,alternative
+3503,1LzNfuep1bnAUR9skqdHCK,Mazzy Star,So Tonight That I Might See,Fade Into You,79,295600,False,0.42,0.33,9,-13.925,1,0.0275,0.245,0.000679,0.0677,0.175,157.143,3,alternative
+3001,09gysnJpfQ3ublBmJDfcEC,Amaarae;Kali Uchis;Moliy,SAD GIRLZ LUV MONEY Remix (feat. Kali Uchis and Moliy),SAD GIRLZ LUV MONEY Remix (feat. Kali Uchis and Moliy),79,204763,True,0.87,0.523,1,-8.052,0,0.0602,0.433,2.07e-05,0.113,0.319,110.02,4,alternative
+3400,0GO8y8jQk1PkHzS31d699N,Grouplove,Never Trust a Happy Song,Tongue Tied,79,218013,False,0.56,0.936,3,-5.835,1,0.0439,0.00847,0.0,0.161,0.371,112.96,4,alternative
+3560,7wCmS9TTVUcIhRalDYFgPy,Pixies,Surfer Rosa,Where Is My Mind? - Remastered,79,234973,False,0.519,0.441,4,-14.178,1,0.0353,0.0204,0.000453,0.076,0.25,81.334,4,alternative
+3754,1jJci4qxiYcOHhQR247rEU,MGMT,Oracular Spectacular,Kids,78,302840,False,0.451,0.931,9,-3.871,1,0.0719,0.00076,0.0049,0.361,0.172,122.961,4,alternative
+3506,0q6LuUqGLUiCPP1cbdwFs3,Gorillaz,Plastic Beach,On Melancholy Hill,78,233866,False,0.689,0.739,2,-5.81,1,0.026,1.51e-05,0.509,0.064,0.578,120.423,4,alternative
+3865,2MLHyLy5z5l5YRp7momlgw,Weezer,Weezer (Green Album),Island In The Sun,78,200306,False,0.654,0.81,4,-6.26,0,0.0288,0.00719,0.00251,0.165,0.661,114.623,4,alternative
+3254,0uBdQzKghx88d2Lp8SLFKJ,The 1975,I'm In Love With You,I'm In Love With You,78,262623,True,0.668,0.902,2,-3.924,1,0.0386,0.169,8.74e-05,0.198,0.913,119.008,4,alternative
+3051,0y1QJc3SJVPKJ1OvFmFqe6,KALEO,A/B,Way down We Go,78,213706,False,0.489,0.505,10,-8.022,0,0.117,0.579,0.000333,0.104,0.337,163.255,4,alternative
+3250,2u0CelO5c81XS7z3dGpHbS,The Neighbourhood,Wiped Out!,The Beach,78,255133,False,0.245,0.64,2,-7.426,0,0.0608,0.131,8.11e-06,0.0766,0.105,135.739,4,alternative
+3262,3K4HG9evC7dg3N0R9cYqk4,Linkin Park,Hybrid Theory (Bonus Edition),One Step Closer,78,157333,False,0.492,0.969,9,-4.419,1,0.0491,0.0014,1.32e-06,0.0787,0.538,95.136,4,alternative
+3219,6IbnUaczZBT34DhaD6S18F,MARINA,Electra Heart (Deluxe),Bubblegum Bitch,78,154666,True,0.495,0.856,0,-5.123,0,0.0311,0.000219,0.0,0.103,0.609,158.024,4,alternative
+3967,10Nmj3JCNoMeBQ87uw5j8k,Red Hot Chili Peppers,Stadium Arcadium,Dani California,78,282160,False,0.556,0.913,0,-2.36,1,0.0437,0.0193,8.59e-06,0.346,0.73,96.184,4,alternative
+3550,0KzAbK6nItSqNh8q70tb0K,Pixies,Death to the Pixies,Where Is My Mind?,77,229226,False,0.513,0.442,4,-13.529,1,0.0343,0.00731,0.000838,0.0878,0.243,81.201,4,alternative
+3263,4Yf5bqU3NK4kNOypcrLYwU,Linkin Park,Meteora,Faint,77,162600,False,0.554,0.978,4,-3.554,1,0.131,0.111,0.0,0.0731,0.594,135.095,4,alternative
+3213,2UREu1Y8CO4jXkbvqAtP7g,Skillet,Awake,Monster,77,178013,False,0.64,0.957,8,-2.336,1,0.0741,0.0431,0.0,0.0789,0.692,134.992,4,alternative
+3304,7brQHA2CgQpcMBiOlfiXYb,The Neighbourhood,I Love You.,Afraid,77,251186,True,0.464,0.701,6,-5.693,0,0.0411,0.00892,0.309,0.335,0.356,83.996,4,alternative
+3867,0EYOdF5FCkgOJJla8DI2Md,System Of A Down,Mezmerize,B.Y.O.B.,77,255466,True,0.538,0.981,1,-2.688,0,0.14,0.00662,0.0,0.219,0.711,101.414,4,alternative
+3718,4e9eGQYsOiBcftrWXwsVco,System Of A Down,Toxicity,Aerials,77,235053,False,0.364,0.922,0,-4.217,0,0.0567,0.000915,0.0346,0.0697,0.227,79.342,4,alternative
+3971,6wqJeItl3Vc3az4ZicSQAB,Slipknot,Vol. 3: The Subliminal Verses,Before I Forget,77,278600,False,0.291,0.974,6,-2.997,0,0.171,0.0177,5.44e-06,0.886,0.348,134.724,4,alternative
+3952,3FtYbEfBqAlGO46NUDQSAt,MGMT,Oracular Spectacular,Electric Feel,77,229640,False,0.763,0.803,1,-3.713,1,0.0351,0.0709,0.285,0.348,0.561,103.04,3,alternative
+3923,2EoOZnxNgtmZaD8uUmz2nD,Soundgarden,Superunknown (Deluxe Edition),Black Hole Sun,77,318586,False,0.35,0.828,6,-5.373,1,0.041,0.000217,0.000161,0.0774,0.147,105.435,4,alternative
+3310,0fYVliAYKHuPmECRs1pbRf,X Ambassadors,VHS,Renegades,76,195200,False,0.526,0.862,2,-6.003,1,0.0905,0.0144,0.0597,0.229,0.528,90.052,4,alternative
+3404,15VRO9CQwMpbqUYA7e6Hwg,Nirvana,MTV Unplugged In New York,The Man Who Sold The World,76,261093,False,0.483,0.753,1,-8.937,0,0.0832,0.425,0.000142,0.257,0.42,115.102,4,alternative
+3758,305WCRhhS10XUcH6AEwZk6,Jet,Get Born,Are You Gonna Be My Girl,76,213800,False,0.613,0.953,2,-3.435,1,0.0855,0.00148,0.000582,0.152,0.537,105.046,4,alternative
+3208,26ZzSLUJMmYp5u1hDELEWH,Crystal Castles,(III),Transgender,76,184760,False,0.522,0.914,7,-8.285,1,0.0379,0.000164,0.847,0.24,0.0364,137.939,3,alternative
+3251,0VF7YLIxSQKyNiFL3X6MmN,The Neighbourhood,Chip Chrome & The Mono-Tones (Deluxe),Stargazing,76,217026,False,0.512,0.483,0,-7.798,1,0.0298,0.00304,0.0011,0.12,0.367,160.009,4,alternative
+3518,5anCkDvJ17aznvK5TED5uo,Avenged Sevenfold,Hail to the King,Hail to the King,76,305906,False,0.58,0.916,3,-4.358,0,0.0387,0.000297,0.0259,0.126,0.683,118.004,4,alternative
+3052,4gHnSNHs8RyVukKoWdS99f,Nirvana,Nevermind (Remastered),Something In The Way,76,232146,False,0.427,0.201,8,-13.044,1,0.0317,0.745,0.263,0.109,0.0668,105.218,4,alternative
+3311,57BrRMwf9LrcmuOsyGilwr,Linkin Park,Hybrid Theory (Bonus Edition),Crawling,76,208960,False,0.58,0.702,4,-5.565,1,0.0337,0.0466,3.2e-06,0.536,0.299,105.076,4,alternative
+3608,46gSk82duJtX3TTA182ruG,Franz Ferdinand,This fffire,This fffire - New Version,76,218080,False,0.442,0.887,4,-5.943,0,0.1,0.0259,4.57e-06,0.0655,0.637,146.358,4,alternative
+3500,4UGvqm3e7UElrrriPtnhwz,Genevieve Stokes,Habits,Habits,76,136733,False,0.663,0.287,9,-9.469,1,0.0344,0.854,6.85e-06,0.346,0.438,82.457,4,alternative
+3306,3NLrRZoMF0Lx6zTlYqeIo4,3 Doors Down,Away From The Sun,Here Without You,76,238733,False,0.557,0.533,10,-6.817,0,0.0252,0.0492,0.0,0.205,0.233,143.994,4,alternative
+3008,7BoobGhD4x5K96Me0hqC8Q,Bella Poarch,Build a Bitch,Build a Bitch,76,122772,True,0.855,0.463,3,-7.454,1,0.0367,0.217,1.77e-05,0.347,0.866,102.931,4,alternative
+3303,14dJexYlvd3t3XAtD1pYW1,The 1975,Being Funny In A Foreign Language,Oh Caroline,76,212568,False,0.646,0.85,2,-5.466,1,0.0428,0.363,4.01e-05,0.0994,0.819,96.538,4,alternative
+3721,63OQupATfueTdZMWTxW03A,Radiohead,OK Computer,Karma Police,76,264066,False,0.36,0.501,7,-9.129,1,0.0258,0.0638,9.32e-05,0.172,0.324,74.807,4,alternative
+3722,3RAFcUBrCNaboRXoP3S5t1,Slipknot,All Hope Is Gone (10th Anniversary),Psychosocial,76,284120,False,0.568,0.981,2,-3.889,1,0.0887,0.00269,0.00275,0.0243,0.307,135.146,4,alternative
+3603,0815caqt2Lytro5EIzMufT,Lifehouse,Lifehouse,You And Me,76,195493,False,0.459,0.427,7,-7.734,1,0.0267,0.114,0.0,0.168,0.354,139.902,3,alternative
+3851,1RKUoGiLEbcXN4GY4spQDx,Gorillaz,Gorillaz,Clint Eastwood,76,340920,True,0.663,0.694,10,-8.627,0,0.171,0.0253,0.0,0.0698,0.525,167.953,4,alternative
+3850,3lIxtCaROdRDuTnNBDm3n2,Gorillaz;Kali Uchis,Humanz (Deluxe),She's My Collar (feat. Kali Uchis),75,209560,False,0.726,0.815,11,-5.886,1,0.0313,0.00799,0.081,0.112,0.462,140.158,4,alternative
+3761,2a1iMaoWQ5MnvLFBDv4qkf,Radiohead,The Bends,High and Dry,75,257480,False,0.419,0.383,4,-11.782,1,0.0256,0.0724,0.0176,0.0896,0.35,87.568,4,alternative
+3101,22I3h5AOENlH4CqXJsEbFR,Justine Skye;Tyga,Collide (feat. Tyga),Collide (feat. Tyga),75,260169,True,0.418,0.31,11,-9.869,0,0.0625,0.095,0.0,0.216,0.131,139.614,4,alternative
+3210,7oVEtyuv9NBmnytsCIsY5I,Linkin Park,LIVING THINGS,BURN IT DOWN,75,230253,False,0.585,0.972,9,-4.45,0,0.0534,0.0143,0.0,0.0707,0.585,110.006,4,alternative
+3363,1Vej0qeQ3ioKwpI6FUbRv1,Linkin Park,Hybrid Theory (Bonus Edition),Papercut,75,184866,False,0.524,0.939,9,-3.994,1,0.113,0.00022,0.0,0.623,0.661,150.184,4,alternative
+3200,5Q6fh8OEhBYepJaORz9lxe,The Neighbourhood;Syd,Daddy Issues (Remix) feat. Syd,Daddy Issues (Remix) feat. Syd,75,181186,False,0.623,0.533,10,-8.164,1,0.0653,0.245,0.00717,0.112,0.247,84.982,4,alternative
+3612,5gRcv46AMTrosmTOqrOV3Q,Nirvana,In Utero - 20th Anniversary Remaster,Dumb,75,151893,False,0.697,0.395,6,-13.58,1,0.0281,0.428,0.653,0.173,0.876,113.589,4,alternative
+3012,0AUyNF6iFxMNQsNx2nhtrw,grandson,Blood // Water,Blood // Water,75,216720,False,0.51,0.882,8,-5.659,0,0.159,0.00158,0.00206,0.0764,0.653,154.029,4,alternative
+3716,1VNWaY3uNfoeWqb5U8x2QX,System Of A Down,Hypnotize,Lonely Day,75,167906,False,0.47,0.796,8,-3.277,0,0.0336,0.362,1.1e-06,0.133,0.215,113.108,3,alternative
+3926,6PypGyiu0Y2lCDBN1XZEnP,R.E.M.,Automatic For The People,Everybody Hurts,75,320266,False,0.467,0.324,2,-10.451,1,0.0255,0.615,0.0248,0.118,0.166,94.301,3,alternative
+3514,6Up545NUflOiXo8cEraH49,Lauren Daigle,Look Up Child,You Say,75,274693,False,0.494,0.632,5,-6.89,1,0.0342,0.682,0.0,0.0869,0.0797,147.873,4,alternative
+3451,77KnJc8o5G1eKVwX5ywMeZ,Young the Giant,Mirrorball / Mind Over Matter (Reprise),Mind Over Matter (Reprise),75,230866,False,0.393,0.487,0,-6.348,1,0.0337,0.229,0.0,0.128,0.3,151.958,4,alternative
+3452,7IL8PSVwLOJxqYne6azxQv,The Neighbourhood,Chip Chrome & The Mono-Tones,Pretty Boy,75,234093,False,0.578,0.386,6,-11.464,1,0.0278,0.208,0.0453,0.307,0.569,154.902,4,alternative
+3717,2oaK4JLVnmRGIO9ytBE1bt,Red Hot Chili Peppers,The Getaway,Dark Necessities,74,302000,False,0.7,0.742,5,-6.777,0,0.0716,0.0722,0.0199,0.11,0.197,91.959,4,alternative
+3450,0EfsDEYaSjGYd66Pr881nq,The Neighbourhood,Wiped Out!,Cry Baby,74,235160,False,0.581,0.656,4,-4.891,0,0.0294,0.00269,2.78e-06,0.101,0.338,108.033,4,alternative
+3814,0faXHILILebCGnJBPU6KJJ,Breaking Benjamin,Phobia (Clean Version),The Diary of Jane - Single Version,74,200546,False,0.392,0.964,10,-4.441,0,0.0644,7.13e-05,0.0387,0.106,0.269,167.024,4,alternative
+3601,7lGKEWMXVWWTt3X71Bv44I,X Ambassadors,VHS,Unsteady,74,193546,False,0.389,0.665,0,-6.169,1,0.0644,0.178,0.000732,0.116,0.199,117.055,4,alternative
+3760,1MTQHCpraD4S8g5PAFKzoj,Limp Bizkit,Results May Vary,Behind Blue Eyes,74,269973,False,0.595,0.489,7,-6.66,1,0.0271,0.497,0.0,0.119,0.0902,120.315,4,alternative
+3928,55yvzYuvJYG2RUEnMK78tr,Nirvana,Nirvana,About A Girl,74,166640,False,0.409,0.932,11,-4.538,0,0.0339,1.87e-05,1.6e-06,0.31,0.591,131.761,4,alternative
+3777,2avKuMN2QXkaG9vvHa2JLt,Limp Bizkit,Chocolate Starfish And The Hot Dog Flavored Water,Take A Look Around,74,321040,False,0.425,0.852,11,-5.607,1,0.046,0.0175,0.306,0.0935,0.512,101.968,4,alternative
+3511,4sOX1nhpKwFWPvoMMExi3q,MARINA,Electra Heart (Deluxe),Primadonna,74,221075,False,0.66,0.689,4,-2.671,0,0.0337,0.0884,0.0,0.0922,0.427,127.98,4,alternative
+3972,5mpUKTdskZea0gStWzeHUZ,Slipknot,We Are Not Your Kind,Unsainted,74,260773,True,0.427,0.946,7,-2.188,1,0.0469,0.000118,0.0253,0.0604,0.237,101.305,4,alternative
+3723,5vHLwhxxlGzmClMcxRRFPr,Nirvana,Nevermind (Remastered),Lithium,73,257053,False,0.678,0.656,7,-6.41,1,0.0381,0.00174,0.0,0.0631,0.485,123.207,4,alternative
+3011,6rrKbzJGGDlSZgLphopS49,The Score,ATLAS,Unstoppable,73,192106,False,0.485,0.843,1,-3.993,0,0.0467,0.00129,1.01e-05,0.14,0.602,78.001,4,alternative
+3151,4m0q0xQ2BNl9SCAGKyfiGZ,The 1975,"I like it when you sleep, for you are so beautiful yet so unaware of it",Somebody Else,73,347525,True,0.618,0.793,0,-5.711,1,0.0601,0.204,0.0154,0.126,0.459,101.015,4,alternative
+3953,6SE4JAo7T8C7XkFka5bbga,Los Retros,Someone To Spend Time With,Someone To Spend Time With,73,173953,False,0.816,0.46,9,-13.299,1,0.034,0.0488,0.261,0.106,0.963,89.57,4,alternative
+3301,0U0ldCRmgCqhVvD6ksG63j,Kavinsky,Nightcall,Nightcall,73,258413,False,0.532,0.874,9,-5.183,0,0.0482,0.00842,0.012,0.452,0.361,91.038,4,alternative
+3611,0ADZ5dmXhlfzjMw6lefoPl,Nickelback,All the Right Reasons,Far Away,73,238173,False,0.518,0.797,6,-5.153,1,0.0309,0.000681,0.0,0.107,0.293,132.918,4,alternative
+3915,40LQiUUUKXVGyNs09lHVjW,Hinder,Extreme Behavior,Lips Of An Angel,73,261853,False,0.476,0.736,2,-5.38,1,0.0343,0.0217,1.08e-06,0.203,0.251,129.084,4,alternative
+3102,1r1fPuhj9H4VdXr7OK6FL5,Linkin Park,LIVING THINGS,CASTLE OF GLASS,73,205400,False,0.615,0.911,1,-3.584,0,0.0278,0.0686,0.00188,0.0908,0.685,108.0,4,alternative
+3501,1fDFHXcykq4iw8Gg7s5hG9,The 1975,Being Funny In A Foreign Language,About You,73,326490,False,0.416,0.762,2,-7.385,1,0.0279,0.312,0.804,0.0559,0.461,95.967,4,alternative
+3260,3fjmSxt0PskST13CSdBUFx,Linkin Park,Meteora (Bonus Edition),Somewhere I Belong,73,213933,False,0.451,0.951,1,-3.754,1,0.0645,0.00038,2.39e-06,0.261,0.442,162.065,4,alternative
+3515,3TgMcrV32NUKjEG2ujn9eh,The 1975,A Brief Inquiry Into Online Relationships,It's Not Living (If It's Not With You),73,248335,False,0.618,0.837,1,-5.338,1,0.0304,0.000254,0.000378,0.0618,0.526,121.227,4,alternative
+3860,1jq28NGw6wdtFKx8MBPy6C,Nickelback,Dark Horse,Burn It to the Ground,73,212346,False,0.617,0.922,11,-3.474,1,0.0744,0.000247,0.388,0.363,0.6,132.059,4,alternative
+3910,4BggEwLhGfrbrl7JBhC8EC,Crazy Town,The Gift Of Game,Butterfly,73,216733,False,0.736,0.811,9,-4.17,0,0.081,0.00132,0.000142,0.107,0.609,103.502,4,alternative
+3900,3jVtllWS5CFFWLQng8sKsr,Tinashe;ScHoolboy Q,Aquarius,2 On (feat. ScHoolboy Q),72,227000,True,0.742,0.595,9,-7.51,1,0.107,0.15,0.0,0.111,0.431,101.013,4,alternative
+3873,73CKjW3vsUXRpy3NnX4H7F,Radiohead,The Bends,Fake Plastic Trees,72,290706,False,0.463,0.229,2,-12.592,1,0.0297,0.167,0.0997,0.202,0.135,73.543,4,alternative
+3558,0eNfURq0r0oNSwFyw1VuVT,The 1975,Being Funny In A Foreign Language,Looking For Somebody (To Love),72,178617,True,0.522,0.957,2,-4.924,1,0.0687,0.0515,0.0014,0.144,0.917,170.91,4,alternative
+3924,4sNwdacKyi2S26WrRtNama,MARINA,The Family Jewels,Oh No!,72,182586,False,0.77,0.896,0,-3.971,1,0.039,0.0539,0.0,0.243,0.964,126.999,4,alternative
+3927,3zwmW1gM4E8FlHXV5nE16u,Audioslave,Out of Exile,Be Yourself,72,278973,False,0.423,0.845,11,-3.509,0,0.0559,0.143,5.07e-06,0.213,0.317,116.602,4,alternative
+3359,4CbKVDZkYKdv69I4bCaKUq,Skillet,Awake,Hero,72,186813,False,0.533,0.967,1,-2.543,1,0.0995,0.00791,0.0,0.336,0.782,142.018,4,alternative
+3713,4UEo1b0wWrtHMC8bVqPiH8,Avenged Sevenfold,Nightmare,Nightmare,72,374453,True,0.554,0.949,2,-4.928,1,0.0787,0.000318,9.98e-05,0.2,0.233,129.984,4,alternative
+3709,3Y4rUyw7XBCK6hGHCOt6rp,The Strokes,Comedown Machine,"Call It Fate, Call It Karma",72,204773,False,0.544,0.241,4,-14.779,0,0.03,0.983,0.774,0.101,0.359,109.437,4,alternative
+3265,0i8JFpqe9cKwnrcvoNgl1L,Skillet,Unleashed,Feel Invincible,72,229933,False,0.603,0.886,5,-3.777,0,0.0837,0.00045,0.0,0.26,0.395,126.025,4,alternative
+3220,0AOmbw8AwDnwXhHC3OhdVB,Thousand Foot Krutch,The End Is Where We Begin,Courtesy Call,72,236898,False,0.531,0.638,11,-5.145,0,0.0809,0.00409,0.0,0.0822,0.445,164.079,4,alternative
+3600,0xD23i0X1WjqMSYIxRfO80,The Neighbourhood,#000000 & #FFFFFF,Unfair,72,146866,False,0.477,0.572,8,-7.328,1,0.0319,0.00708,0.784,0.144,0.0414,194.033,4,alternative
+3358,42T2QQv3xgBlpQxaSP7lnK,Creed,Weathered,One Last Breath,72,238240,False,0.386,0.677,2,-5.83,1,0.0346,0.00841,0.00366,0.341,0.195,126.602,4,alternative
+3157,1EQFOouqdKYdpbNoOHRVO2,GAYLE,abcdefu (angrier),abcdefu (angrier),72,159836,True,0.671,0.599,4,-6.18,1,0.0405,0.0658,0.0,0.101,0.448,121.849,3,alternative
+3155,3SWqGa1J0M7hSBUDM0KePD,The Score,ATLAS,Legend,71,189120,False,0.601,0.757,2,-3.341,1,0.028,0.0139,8.85e-05,0.0727,0.462,82.001,4,alternative
+3504,1YlulsUKDduOmC7WxvXYPW,Ruel,Free Time,Painkiller,71,213506,False,0.683,0.42,5,-6.51,1,0.0542,0.0875,0.0,0.225,0.469,128.621,4,alternative
+3704,5v8aEcHcaJIGYpfVVPtJjI,The Neighbourhood,I'm Sorry...,Wires,71,193080,False,0.568,0.569,7,-6.013,0,0.0329,0.0004,0.102,0.342,0.266,72.991,4,alternative
+3555,7omxuGYsym1n2RlVf86OF9,The 1975,Being Funny In A Foreign Language,The 1975,71,250900,False,0.542,0.433,9,-10.47,1,0.0305,0.897,0.173,0.101,0.495,140.939,4,alternative
+3755,4XfI7M5gLwEY84gYiH4RDD,The Neighbourhood,Chip Chrome & The Mono-Tones,Devil's Advocate,71,186306,False,0.662,0.681,11,-8.152,0,0.0315,0.0321,0.139,0.508,0.864,98.004,4,alternative
+3808,3zjjzKg16tczCMwckGKGuH,Weathers,Happy Pills,Happy Pills,71,203080,False,0.521,0.885,4,-4.934,0,0.125,0.00327,0.00904,0.324,0.344,115.985,4,alternative
+3970,2sEk5R8ErGIFxbZ7rX6S2S,MARINA,Electra Heart (Deluxe),How to Be a Heartbreaker,71,221493,False,0.69,0.897,11,-4.696,0,0.0506,0.0142,0.0,0.108,0.849,140.05,4,alternative
+3759,1xLs8Mu1QEVbGCpyHQ2r2U,Dominic Fike,What Could Possibly Go Wrong,Why,71,139906,True,0.684,0.856,6,-2.676,1,0.0411,0.342,0.00728,0.109,0.343,117.027,4,alternative
+3202,73jVPicY2G9YHmzgjk69ae,The 1975,The 1975,Robbers,71,254509,False,0.621,0.692,4,-6.858,1,0.0291,0.000363,1.75e-05,0.335,0.381,99.806,4,alternative
+3803,3G9l0CsH7HCkr0SqDE1juj,The 1975,Happiness,Happiness,71,303903,False,0.666,0.909,11,-5.029,1,0.039,0.0438,0.108,0.219,0.846,118.007,4,alternative
+3362,3dxiWIBVJRlqh9xk144rf4,Linkin Park,Meteora (Bonus Edition),Breaking the Habit,71,196906,False,0.579,0.849,4,-5.218,0,0.0303,0.108,0.0,0.0909,0.581,100.021,4,alternative
+3951,40gvh6jP5qxMJuMmF9lG9A,The Neighbourhood,Wiped Out!,Baby Came Home 2 / Valentines,71,390493,False,0.21,0.499,2,-9.754,0,0.0485,0.0687,0.00315,0.773,0.108,74.094,4,alternative
+3959,2t0wwvR15fc3K1ey8OiOaN,The Strokes,The New Abnormal,Selfless,71,222093,False,0.538,0.679,4,-4.297,1,0.0333,0.191,0.00175,0.0889,0.0888,121.99,4,alternative
+3252,5SDcksP8En1l6RtTY1wzHc,Hillsong UNITED;TAYA,Zion,Oceans (Where Feet May Fail),71,536000,False,0.264,0.363,2,-10.196,1,0.0338,0.501,0.00406,0.11,0.0613,124.328,4,alternative
+3773,6lKRMylSZMtA7EqPl0pcdI,MARINA,The Family Jewels,Are You Satisfied?,71,198960,False,0.669,0.712,0,-4.992,1,0.0412,0.303,0.0,0.0755,0.843,124.009,4,alternative
+3914,5Az8KU81g2aLBbJN67F2CI,Young the Giant,Mind Over Matter,Mind Over Matter,71,244693,False,0.466,0.763,0,-4.448,1,0.0318,0.000501,0.0,0.0973,0.293,154.914,4,alternative
+3605,6G8xvLFNkXy3HM5EbQI6c8,lovelytheband,sail away,sail away,71,179000,False,0.743,0.835,2,-4.655,1,0.029,0.25,0.0,0.0912,0.955,120.019,4,alternative
+3606,12g9IeQzX7xECLNxz8dpb5,The 1975,Being Funny In A Foreign Language,I'm In Love With You,71,262623,True,0.668,0.902,2,-3.924,1,0.0386,0.169,8.74e-05,0.198,0.913,119.008,4,alternative
+3969,3RlsVPIIs5KFhLFhxZ4iDF,Nickelback,All the Right Reasons (Walmart Exclusive Edition),Rockstar,70,252040,False,0.616,0.91,0,-3.004,1,0.0386,0.0459,0.0,0.343,0.693,144.072,4,alternative
+3665,4FxeY2UZeP3kpdBPbpGggN,The 1975,Being Funny In A Foreign Language,Wintering,70,165457,False,0.643,0.882,11,-5.431,1,0.0808,0.363,5.53e-05,0.28,0.941,159.996,4,alternative
+3660,7zAt4tdL44D3VuzsvM0N8n,Avenged Sevenfold,Avenged Sevenfold,Afterlife,70,352426,False,0.487,0.949,2,-4.217,0,0.0798,0.000429,2.91e-05,0.231,0.406,110.02,4,alternative
+3950,2Iq6HhIquO7JKr0KfTNLzU,Saint Motel,My Type EP,My Type,70,204811,False,0.595,0.896,10,-2.951,1,0.047,0.0641,5.82e-05,0.0748,0.567,118.001,4,alternative
+3214,5jjZikDrEd0by1o7V3fO4y,Royal & the Serpent,Overwhelmed,overwhelmed,70,159293,False,0.804,0.323,0,-11.127,0,0.305,0.308,0.0,0.15,0.456,87.019,4,alternative
+3662,5rAxhWcgFng3s570sGO2F8,Linkin Park,Hybrid Theory (Bonus Edition),A Place for My Head,70,184640,False,0.603,0.908,11,-5.254,1,0.184,0.0144,0.0,0.671,0.457,133.063,4,alternative
+3604,35lxFAny9XDBkvE6r9j4uG,The 1975,Being Funny In A Foreign Language,Happiness,70,303903,False,0.662,0.905,11,-5.036,1,0.0383,0.0529,0.0521,0.202,0.857,117.997,4,alternative
+3350,7JIIY2oDPFkURYMCLJuzhe,Dominic Fike;Zendaya,"Elliot's Song (From ""Euphoria"" An HBO Original Series)","Elliot's Song - From ""Euphoria"" An HBO Original Series",70,150320,False,0.394,0.327,4,-14.291,1,0.114,0.849,0.0,0.125,0.411,93.358,4,alternative
+3453,6Wx88Mv6b9ofjKMKkdwOJd,Linkin Park,Transformers: Revenge Of The Fallen The Album,New Divide,70,268613,False,0.493,0.808,5,-3.365,0,0.0362,0.000235,0.0,0.0983,0.38,117.971,4,alternative
+3701,60F6pgM6H6miNr5AmjxwjL,The Neighbourhood,Fallen Star,Fallen Star,70,224938,False,0.603,0.551,10,-6.259,0,0.0304,0.0696,0.0976,0.192,0.439,75.001,4,alternative
+3703,6XcfKZvJio9Z0fQy11GnNX,lovelytheband,finding it hard to smile,broken,70,204878,False,0.666,0.728,7,-5.808,1,0.0419,0.00175,4.26e-06,0.0429,0.51,122.996,4,alternative
+3010,6bTbMMEShyGyrcuIwtBlpA,Bella Poarch,Dolls EP,Living Hell,70,174002,False,0.729,0.551,0,-6.935,0,0.056,0.598,0.0,0.176,0.312,124.044,4,alternative
+3765,2Kt1XplPBQBsDKQDa6TssB,The Neighbourhood,I Love You.,Flawless,70,246493,True,0.568,0.871,0,-3.453,1,0.0308,0.0553,0.51,0.303,0.374,119.99,4,alternative
+3855,113xf7t4qNM7038YJvauik,The Neighbourhood,Hard To Imagine The Neighbourhood Ever Changing,Nervous,70,245000,False,0.589,0.614,0,-7.528,0,0.0426,0.0213,0.165,0.31,0.318,119.837,4,alternative
+3753,0YNtAadZvKBBEFARtfoCV8,The Neighbourhood,Hard To Imagine The Neighbourhood Ever Changing,Compass,70,167960,False,0.7,0.82,5,-5.499,0,0.0329,0.238,0.318,0.658,0.667,109.998,4,alternative

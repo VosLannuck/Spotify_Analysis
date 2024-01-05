@@ -1,0 +1,159 @@
+,track_id,artists,album_name,track_name,popularity,duration_ms,explicit,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature,track_genre
+89411,5ww2BF9slyYgNOk37BlC4u,Manuel Turizo,La Bachata,La Bachata,98,162637,False,0.835,0.679,7,-5.329,0,0.0364,0.583,1.98e-06,0.218,0.85,124.98,4,reggaeton
+89405,1IHWl5LamUGEuP4ozKQSXZ,Bad Bunny,Un Verano Sin Ti,Tití Me Preguntó,97,243716,False,0.65,0.715,5,-5.198,0,0.253,0.0993,0.000291,0.126,0.187,106.672,4,reggaeton
+89407,6Sq7ltF9Qa7SNFBsV5Cogx,Bad Bunny;Chencho Corleone,Un Verano Sin Ti,Me Porto Bonito,97,178567,True,0.911,0.712,1,-5.105,0,0.0817,0.0901,2.68e-05,0.0933,0.425,92.005,4,reggaeton
+89451,5Eax0qFko2dh7Rl2lYs3bx,Bad Bunny,Un Verano Sin Ti,Efecto,95,213061,False,0.801,0.475,7,-8.797,0,0.0516,0.141,1.73e-05,0.0639,0.234,98.047,4,reggaeton
+89403,3k3NWokhRRkEPhCzPmV8TW,Bad Bunny;Bomba Estéreo,Un Verano Sin Ti,Ojitos Lindos,94,258298,False,0.647,0.686,3,-5.745,0,0.0413,0.08,1.34e-06,0.528,0.268,79.928,4,reggaeton
+89450,6Xom58OOXk2SoU711L2IXO,Bad Bunny,Un Verano Sin Ti,Moscow Mule,94,245939,True,0.804,0.674,5,-5.453,0,0.0333,0.294,1.18e-06,0.115,0.292,99.968,4,reggaeton
+89500,31i56LZnwE6uSu3exoHjtB,Bad Bunny,Un Verano Sin Ti,Neverita,93,173119,False,0.876,0.498,10,-7.511,1,0.0478,0.0706,0.0,0.143,0.428,122.016,4,reggaeton
+89409,7dSZ6zGTQx66c2GF91xCrb,KAROL G,PROVENZA,PROVENZA,93,210200,False,0.87,0.516,1,-8.006,1,0.0541,0.656,0.00823,0.11,0.53,111.005,4,reggaeton
+89554,41oY4WCTj5kccfesTVFnvN,Bad Bunny;Jhayco,Un Verano Sin Ti,Tarot,91,237894,True,0.795,0.684,11,-3.971,0,0.0419,0.0225,0.0,0.658,0.419,114.011,4,reggaeton
+89724,1797zYiX4cKosMH836X9Gt,Bad Bunny;Tony Dize,Un Verano Sin Ti,La Corriente,90,198367,True,0.663,0.786,11,-3.51,0,0.195,0.229,0.0,0.219,0.579,196.12,4,reggaeton
+89561,6i1g5ZRmJZAkDwBaUZ3f2i,Luar La L,L3tra,Caile,90,141340,True,0.704,0.756,0,-4.948,1,0.448,0.298,3.75e-06,0.0852,0.461,121.737,3,reggaeton
+89604,4tYFy8ALRjIZvnvSLw5lxN,Bad Bunny;Rauw Alejandro,Un Verano Sin Ti,Party,90,227628,False,0.829,0.799,9,-5.389,1,0.0897,0.0151,0.000543,0.242,0.471,97.013,4,reggaeton
+89608,1ga4PztXOIw1yBbdUt2X8v,KAROL G;Maldy,GATÚBELA,GATÚBELA,90,209160,False,0.627,0.858,11,-2.824,0,0.386,0.263,0.0,0.21,0.342,92.523,4,reggaeton
+89658,6DoL1yYIwEW7VZMRaJhoJI,Chris Jedi;Anuel AA;Chencho Corleone;Ñengo Flow,La Llevo Al Cielo (Ft. Ñengo Flow),La Llevo Al Cielo (Ft. Ñengo Flow),88,254920,True,0.795,0.845,9,-3.809,0,0.135,0.105,1.14e-05,0.172,0.769,170.023,4,reggaeton
+89600,0fea68AdmYNygeTGI4RC18,J Balvin;Bad Bunny,OASIS,LA CANCIÓN,88,242573,False,0.754,0.646,7,-5.795,1,0.317,0.152,1.85e-05,0.108,0.429,176.089,4,reggaeton
+89913,6VrQTLzzuyGIYjUDe4kAZk,Bad Bunny,Un Verano Sin Ti,Un Coco,87,196412,False,0.839,0.69,11,-4.464,1,0.0615,0.207,8.33e-06,0.176,0.744,151.991,4,reggaeton
+89821,5CzixCxDkRXX9mScCmah8O,Bad Bunny,Un Verano Sin Ti,Un Ratito,87,176936,False,0.787,0.546,0,-7.094,0,0.0532,0.305,4.55e-05,0.122,0.222,93.05,4,reggaeton
+89700,4gzsuuZypVbxs0Af1LSZyB,Tainy;Bad Bunny;Julieta Venegas,Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),87,207301,False,0.639,0.703,4,-6.33,0,0.0794,0.0889,1.78e-06,0.0865,0.138,169.888,4,reggaeton
+89721,3kUq4sBcmxhnOtNysZ9yrp,Feid,Feliz Cumpleaños Ferxxo,Feliz Cumpleaños Ferxxo,87,156400,False,0.87,0.55,5,-5.537,1,0.0722,0.102,0.0,0.293,0.566,95.019,4,reggaeton
+89651,2JPLbjOn0wPCngEot2STUS,Bad Bunny,Yonaguni,Yonaguni,87,206710,True,0.644,0.648,1,-4.601,1,0.118,0.276,0.0,0.135,0.44,179.951,4,reggaeton
+89912,44XjoNvtwevktFKjvVe1vH,Bad Bunny;Buscabulla,Un Verano Sin Ti,Andrea,86,339611,True,0.797,0.616,1,-10.229,0,0.375,0.762,0.000293,0.0979,0.451,103.071,4,reggaeton
+89907,4d4ZXH4dr5bYfgErHiZCX2,Bad Bunny,Un Verano Sin Ti,Dos Mil 16,86,208615,False,0.817,0.67,1,-6.534,1,0.0506,0.123,1.92e-06,0.128,0.495,130.058,3,reggaeton
+89722,3PpWCS95gDUDRPko3u1MZ9,Feid,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,Prohibidox,86,166253,False,0.647,0.801,1,-2.946,0,0.249,0.0451,0.0,0.0628,0.517,180.108,4,reggaeton
+89412,5fwSHlTEWpluwOM0Sxnh5k,Farruko,Pepas,Pepas,86,287120,True,0.762,0.766,7,-3.955,1,0.0343,0.00776,6.98e-05,0.128,0.442,130.001,4,reggaeton
+89765,48AJSd42lXpicsGqcgopof,Daddy Yankee;Bad Bunny,LEGENDADDY,X ÚLTIMA VEZ,85,192477,True,0.812,0.855,7,-3.725,1,0.0554,0.0789,0.000167,0.108,0.573,90.04,4,reggaeton
+89803,0E0DRHf5PfMeor0ZCwB3oT,Bad Bunny;The Marías,Un Verano Sin Ti,Otro Atardecer,85,244444,False,0.777,0.595,2,-6.79,1,0.0375,0.59,0.00139,0.0669,0.546,108.02,4,reggaeton
+89654,1ri9ZUkBJVFUdgwzCnfcYs,Becky G;KAROL G,MAMIII,MAMIII,85,226088,False,0.843,0.7,4,-3.563,0,0.0803,0.0934,0.0,0.14,0.899,93.991,4,reggaeton
+89771,5fhcuVxuBWfgNXGuyAtLmr,Piso 21;Manuel Turizo,Los Cachos,Los Cachos,85,212304,False,0.774,0.73,0,-3.865,1,0.134,0.108,0.0,0.194,0.421,91.966,4,reggaeton
+89916,5kVZxyMY1gfdCLiChsfjn1,Bad Bunny,Un Verano Sin Ti,Yo No Soy Celoso,85,230704,True,0.872,0.588,0,-6.276,1,0.0492,0.275,0.0,0.17,0.93,142.004,4,reggaeton
+89764,2z9YkcLojiOE7Eu2p9lPZR,Feid,Normal,Normal,85,171986,True,0.712,0.557,4,-4.861,0,0.115,0.0397,0.0,0.27,0.594,170.079,4,reggaeton
+89402,5gflgO9EPbIBf16n5TKnQS,Zion & Lennox,Motivando a la Yal,Yo Voy (feat. Daddy Yankee),84,232019,False,0.808,0.697,10,-5.899,1,0.241,0.041,0.0,0.0546,0.554,95.06,4,reggaeton
+89755,69vlMrzHwATKzupwNcUPyK,Bad Bunny;Daddy Yankee,YHLQMDLG,La Santa,84,206420,True,0.744,0.868,1,-4.524,1,0.047,0.0326,0.0,0.0822,0.586,93.037,4,reggaeton
+89661,2CeKVsFFXG4QzA415QygGb,Feid,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,Feliz Cumpleaños Ferxxo,84,155960,False,0.865,0.573,5,-5.501,1,0.0678,0.0863,0.0,0.305,0.563,94.999,4,reggaeton
+89923,28GCbKgjlVD9eDmasGbe0T,Bad Bunny,Un Verano Sin Ti,Me Fui de Vacaciones,84,180929,False,0.714,0.645,10,-5.493,1,0.0514,0.229,0.00083,0.0942,0.434,85.046,4,reggaeton
+89868,2NMjggapJcXXM7WccGEBUO,Bad Bunny,Un Verano Sin Ti,Enséñame a Bailar,84,176000,False,0.81,0.789,8,-5.08,1,0.0846,0.191,1.08e-05,0.467,0.77,105.009,4,reggaeton
+89963,2uflssWlCaJ6CbTMOsUpNI,Bad Bunny,Un Verano Sin Ti,Aguacero,84,210989,False,0.861,0.645,6,-6.96,0,0.0743,0.423,0.000592,0.349,0.668,121.391,5,reggaeton
+89859,6C1RD7YQVvt3YQj0CmuTeu,Bad Bunny;Ozuna;Farruko;Arcangel;Ñengo Flow;DJ Luian;Mambo Kingz,Diles,Diles,83,286040,True,0.813,0.56,2,-5.904,0,0.0618,0.108,0.0,0.268,0.287,118.033,4,reggaeton
+89602,47EiUVwUp4C9fGccaPuUCS,Bad Bunny;Jhayco,DÁKITI,DÁKITI,83,205090,True,0.731,0.573,4,-10.059,0,0.0544,0.401,5.22e-05,0.113,0.145,109.928,4,reggaeton
+89703,6TsVhM8qIkWN5cJVDIVbbz,Wisin & Yandel;ROSALÍA,La Última Misión,Besos Moja2,83,229064,False,0.736,0.727,5,-4.642,0,0.0571,0.0584,1.91e-06,0.0976,0.644,94.048,4,reggaeton
+89650,2XIc1pqjXV3Cr2BQUGNBck,Bad Bunny;ROSALÍA,EL ÚLTIMO TOUR DEL MUNDO,LA NOCHE DE ANOCHE,82,203200,False,0.856,0.618,7,-4.892,1,0.286,0.0303,0.0,0.0866,0.391,81.993,4,reggaeton
+89770,02jLfqc9gMo8PkHEGHY3OT,Feid,Si Te La Encuentras Por Ahí,Si Te La Encuentras Por Ahí,82,191573,False,0.743,0.576,8,-3.552,0,0.076,0.151,5.87e-05,0.128,0.455,171.945,4,reggaeton
+89750,4R8BJggjosTswLxtkw8V7P,Jhayco;J Balvin;Bad Bunny,Famouz,No Me Conoce - Remix,82,309120,False,0.806,0.786,10,-3.831,0,0.0741,0.145,0.0,0.0935,0.58,91.973,4,reggaeton
+89806,4SSbtLDkepeOHAckM1FCBP,El Alfa;Noriel;Trueno,LOS APARATOS,LOS APARATOS,82,232843,False,0.868,0.878,1,-3.294,1,0.038,0.0509,0.00052,0.0857,0.899,112.987,4,reggaeton
+89856,0vHfVsEe6Ps0d8cZ9PGzSw,De La Ghetto;Rauw Alejandro,Loco Por Perrearte (Remix),Loco Por Perrearte - Remix,82,199148,True,0.848,0.673,11,-4.034,0,0.058,0.0147,0.00652,0.102,0.39,93.987,4,reggaeton
+89950,2tFwfmceQa1Y6nRPhYbEtC,Jhayco;Bad Bunny,CÓMO SE SIENTE (Remix),CÓMO SE SIENTE - Remix,82,227520,True,0.807,0.606,3,-8.871,0,0.088,0.0946,0.0,0.119,0.304,92.988,4,reggaeton
+89952,41wtwzCZkXwpnakmwJ239F,Bad Bunny,YHLQMDLG,Si Veo a Tu Mamá,82,170971,False,0.9,0.603,2,-5.313,1,0.0646,0.402,4.81e-06,0.134,0.824,129.928,4,reggaeton
+89851,7hynhxDoDpgMIV12JuVtNa,J Balvin;Bad Bunny;Marciano Cantero,OASIS,UN PESO,82,277106,False,0.627,0.675,5,-7.125,0,0.213,0.125,0.0,0.0784,0.961,79.31,4,reggaeton
+89816,4srcMdbm2qzVG98tJajHxp,Alejo;Feid;ROBI,Pantysito,Pantysito,82,240413,True,0.83,0.739,7,-5.395,0,0.0627,0.136,2.11e-06,0.162,0.631,97.993,4,reggaeton
+89410,228BxWXUYQPJrJYHDLOHkj,Daddy Yankee,Barrio Fino (Bonus Track Version),Gasolina,82,192600,False,0.852,0.797,0,-6.543,1,0.0614,0.322,2.69e-06,0.0845,0.741,96.008,4,reggaeton
+89953,5RubKOuDoPn5Kj5TLVxSxY,Bad Bunny,EL ÚLTIMO TOUR DEL MUNDO,TE MUDASTE,81,130013,True,0.811,0.637,10,-4.835,0,0.0591,0.234,0.000572,0.118,0.471,92.025,4,reggaeton
+89773,7d7aPD2oxuzjhOZnu4Dj23,Natti Natasha;Daddy Yankee;Wisin & Yandel,Mayor Que Usted,Mayor Que Usted,81,233519,False,0.625,0.839,6,-4.824,0,0.0927,0.00762,2.35e-05,0.464,0.771,184.08,4,reggaeton
+89754,25ZAibhr3bdlMCLmubZDVt,J Balvin;Bad Bunny,OASIS,QUE PRETENDES,81,222346,False,0.639,0.791,10,-4.443,0,0.253,0.0275,0.0,0.362,0.939,92.603,4,reggaeton
+89662,4XqXNU8MwPHwbgZmNXmAdc,Maluma,Junio,Junio,81,168601,False,0.85,0.756,11,-3.439,0,0.0407,0.0999,0.0,0.0873,0.896,120.024,4,reggaeton
+89842,6e9Ew4AECYwY5Xgs2ZKMgp,Anuel AA,Mercedes Tintia,Mercedes Tintia,81,195348,True,0.815,0.67,11,-4.076,1,0.109,0.0902,0.000854,0.0973,0.768,172.014,4,reggaeton
+89954,71wFwRo8xGc4lrcyKwsvba,Bad Bunny;Tainy,Un Verano Sin Ti,Callaita,81,250533,False,0.608,0.626,2,-4.773,1,0.301,0.597,2.16e-06,0.25,0.246,176.086,4,reggaeton
+89772,4HzqWEdAbzcVFDv0pvxV4w,Maluma,Sobrio,Sobrio,81,201180,False,0.762,0.77,5,-2.758,1,0.223,0.138,0.0,0.15,0.631,177.998,4,reggaeton
+89818,0Be7sopyKMv8Y8npsUkax2,Sebastian Yatra,Tacones Rojos,Tacones Rojos,81,189320,False,0.748,0.856,11,-3.517,0,0.0348,0.0824,0.0,0.142,0.927,123.031,4,reggaeton
+89725,7FlQk2gJ6TBrHHiidvdR2O,Becky G;KAROL G,ESQUEMAS,MAMIII,81,226093,False,0.836,0.703,4,-3.554,0,0.0657,0.0845,0.0,0.138,0.902,94.048,4,reggaeton
+89866,4HYDUMY0xSpeBr0AMY9cUz,Jay Wheeler;DJ Nelson;Myke Towers,Platonicos,La Curiosidad,80,219048,False,0.845,0.677,11,-4.798,0,0.136,0.269,0.000917,0.108,0.68,90.013,4,reggaeton
+89920,0T2pB7P1VdXPhLdQZ488uH,Feid,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,Normal,80,171880,True,0.709,0.56,4,-4.867,0,0.171,0.034,0.0,0.315,0.541,170.082,4,reggaeton
+89404,2BEcap3xJtmiPaHKyfQi4e,Rvssian;Rauw Alejandro;Chris Brown,Nostálgico,Nostálgico,80,209883,True,0.734,0.846,9,-3.425,0,0.0489,0.166,1.74e-06,0.235,0.604,98.026,4,reggaeton
+89958,2DEZmgHKAvm41k4J3R2E9Y,Bad Bunny;Jowell & Randy;Ñengo Flow,YHLQMDLG,Safaera,80,295176,True,0.607,0.829,2,-4.074,1,0.379,0.0103,0.0,0.107,0.685,96.172,4,reggaeton
+89800,2TH65lNHgvLxCKXM3apjxI,Bad Bunny;Tainy,Callaita,Callaita,80,250533,True,0.61,0.624,2,-4.773,1,0.309,0.6,2.12e-06,0.243,0.244,176.169,4,reggaeton
+89605,4MzXwWMhyBbmu6hOcLVD49,Bad Bunny;Jhay Cortez,EL ÚLTIMO TOUR DEL MUNDO,DÁKITI,80,205090,True,0.731,0.573,4,-10.059,0,0.0544,0.401,5.22e-05,0.113,0.145,109.928,4,reggaeton
+89726,5B60XFKzm8WsJTdVyt4u4I,Myke Towers,Luces De Neón,Luces De Neón,80,219789,True,0.747,0.619,3,-6.009,1,0.0588,0.0865,2.03e-05,0.103,0.567,94.98,4,reggaeton
+89827,6ifUES3keWjwXgae8pXI3o,Danny Ocean,54+1,Me Rehúso,80,205714,False,0.744,0.804,1,-6.327,1,0.0677,0.0231,0.0,0.0494,0.426,104.823,4,reggaeton
+89918,3SlKme42qm1vWrkl3BrZmm,Maluma;Chencho Corleone,Nos Comemos Vivos,Nos Comemos Vivos,80,225365,False,0.822,0.719,10,-3.633,0,0.0576,0.165,2.48e-05,0.174,0.659,82.01,4,reggaeton
+89813,0SqqAgdovOE24BzxIClpjw,Bad Bunny,YHLQMDLG,Yo Perreo Sola,79,172127,False,0.86,0.758,11,-5.16,1,0.0695,0.021,6.54e-05,0.344,0.453,97.014,4,reggaeton
+89718,3XjN0mvFkQp1FMVM9Ro5hm,Daddy Yankee,LEGENDADDY,RUMBATÓN,79,248768,False,0.685,0.909,3,-4.034,0,0.0396,0.0471,0.0,0.35,0.922,95.004,4,reggaeton
+89401,116H0KvKr2Zl4RPuVBruDO,Bad Bunny;Drake,MIA (feat. Drake),MIA (feat. Drake),79,210367,False,0.817,0.539,6,-6.349,0,0.0621,0.0141,0.000496,0.099,0.158,97.062,4,reggaeton
+89972,704LUEih663hiE3CnyUrFW,KAROL G,SEJODIOTO,SEJODIOTO,79,181106,True,0.822,0.736,1,-3.969,1,0.15,0.157,0.000781,0.0748,0.679,175.93,4,reggaeton
+89805,2FSGUA0gFgGeQdprjtGM2M,KAROL G;Mariah Angeliq,KG0516,EL MAKINON,79,209160,False,0.635,0.706,5,-3.224,0,0.125,0.256,0.0,0.108,0.443,88.863,4,reggaeton
+89968,5kqNIqFjijuzvVLhuY9B8j,Bad Bunny,YHLQMDLG,La Zona,79,136892,True,0.762,0.801,1,-3.661,0,0.0409,0.2,7.04e-05,0.254,0.81,93.992,4,reggaeton
+89413,5w9c2J52mkdntKOmRLeM2m,Daddy Yankee;Snow,Con Calma,Con Calma,79,193226,False,0.737,0.86,8,-2.652,0,0.0593,0.11,1.94e-06,0.0574,0.656,93.989,4,reggaeton
+89955,05bfbizlM5AX6Mf1RRyMho,Nio Garcia;J Balvin;Bad Bunny,AM Remix,AM Remix,79,261334,True,0.743,0.655,6,-5.015,0,0.159,0.114,0.0,0.0764,0.785,172.031,4,reggaeton
+89701,3V8UKqhEK5zBkBb6d6ub8i,Nio Garcia;Casper Magico;Bad Bunny;Darell;Ozuna;Nicky Jam,Te Boté (Remix),Te Boté - Remix,78,417920,True,0.903,0.675,11,-3.445,0,0.214,0.542,1.28e-05,0.0595,0.442,96.507,4,reggaeton
+89900,5DxXgozhkPLgrbKFY91w0c,Bad Bunny,Vete,Vete,78,192024,True,0.886,0.672,1,-4.394,1,0.188,0.0363,8.78e-06,0.101,0.526,91.976,4,reggaeton
+89976,6AizmGCrFRQHru1Qf8WKoJ,Myke Towers;Jhay Cortez,Ande Con Quien Ande,Ande Con Quien Ande,78,208734,True,0.825,0.736,7,-5.55,1,0.0913,0.0822,0.0,0.158,0.508,92.028,4,reggaeton
+89815,5q2JbCNi4FcnglgPfxcV65,Anuel AA;Daddy Yankee;Zion & Lennox;Farruko;Wisin,Sola (Remix),Sola (Remix),78,307910,False,0.639,0.869,11,-4.024,1,0.147,0.27,0.0,0.0802,0.767,169.801,4,reggaeton
+89832,6ylDpki1VpIsc525KC1ojF,Sebastian Yatra,Dharma,Tacones Rojos,78,189333,False,0.746,0.844,11,-3.499,0,0.0359,0.062,0.0,0.149,0.934,123.014,4,reggaeton
+89720,4OAPnWJ3J5w4c4IBLh2chn,Daddy Yankee;El Alfa;Lil Jon,LEGENDADDY,BOMBÓN,78,182413,True,0.843,0.789,7,-2.801,1,0.247,0.0028,2.41e-05,0.0322,0.571,125.071,4,reggaeton
+89855,6JUMswocQ7Hp46kj9kyljT,Feid;Yandel,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,XQ Te Pones Así,78,218693,False,0.812,0.697,10,-3.441,1,0.0694,0.134,0.0,0.147,0.477,92.03,4,reggaeton
+89550,7k4t7uLgtOxPwTpFmtJNTY,KAROL G;Nicki Minaj,Tusa,Tusa,78,200960,False,0.803,0.715,2,-3.28,1,0.298,0.295,0.000134,0.0574,0.574,101.085,4,reggaeton
+89881,4v7riPZWyAclrOfUSwD0zp,Camilo,De Adentro Pa Afuera,Aeropuerto,78,177626,False,0.69,0.58,0,-4.395,1,0.199,0.0328,0.0,0.328,0.708,197.635,4,reggaeton
+89300,3DmW6y7wTEYHJZlLo1r6XJ,Becky G,Shower,Shower,78,206166,False,0.699,0.529,2,-7.548,1,0.0487,0.0317,3.59e-05,0.285,0.121,119.987,4,reggaeton
+89853,3JCaq3KDSROg3TXhdiDa9n,Jhayco;Anuel AA,Timelezz,Ley Seca,77,263253,False,0.759,0.842,8,-3.758,1,0.096,0.101,0.0,0.134,0.584,105.059,4,reggaeton
+89865,3M23T72K5eqHI2GzdFMMHE,Anuel AA,Brother,Brother,77,209578,True,0.592,0.625,10,-6.203,0,0.2,0.618,9.71e-05,0.287,0.555,166.018,4,reggaeton
+89657,1yoMvmasuxZfqHEipJhRbp,Maluma,PAPI JUANCHO,Hawái,77,199112,False,0.783,0.727,6,-3.454,0,0.389,0.185,2.46e-05,0.0626,0.558,180.067,4,reggaeton
+89569,1zsPaEkglFvxjAhrM8yhpr,Ozuna;Feid,OzuTochi,Hey Mor,77,196600,False,0.901,0.589,1,-6.713,0,0.289,0.00302,0.000237,0.0992,0.399,98.002,4,reggaeton
+89978,2vsoD8S1OyrWSVIA43hjaU,Feid,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,Si Te La Encuentras Por Ahí,77,191506,False,0.736,0.569,8,-3.559,0,0.0779,0.144,5.27e-05,0.112,0.433,171.973,4,reggaeton
+89957,2rCbl9naJYhaxjLsfx88uM,Sebastian Yatra;Myke Towers,Pareja Del Año,Pareja Del Año,77,195053,False,0.715,0.622,4,-5.102,0,0.046,0.163,0.0,0.0948,0.808,80.015,4,reggaeton
+89902,6De0lHrwBfPfrhorm9q1Xl,Danny Ocean,Me Rehúso,Me Rehúso,77,205714,False,0.744,0.804,1,-6.327,1,0.0677,0.0231,0.0,0.0494,0.426,104.823,4,reggaeton
+89603,2ksOAxtIxY8yElEWw8RhgK,Anuel AA;Daddy Yankee;KAROL G;J Balvin;Ozuna,China,China,76,301714,False,0.786,0.808,7,-3.702,1,0.0882,0.0846,0.000289,0.0822,0.609,105.027,4,reggaeton
+89822,6PDlkWmrq2ZKiUuFt2aQsH,Justin Quiles;Chimbala;Zion & Lennox,Loco,Loco,76,231603,False,0.77,0.899,8,-2.981,1,0.0494,0.222,1.14e-06,0.0894,0.851,128.05,4,reggaeton
+89966,7k3qWn8D43a5ISa3x8lJux,Anuel AA,¿Qué Nos Pasó?,¿Qué Nos Pasó?,76,245738,True,0.703,0.694,3,-4.808,0,0.0607,0.436,5.8e-06,0.12,0.298,95.0,4,reggaeton
+89961,7kN7u1ZDOrNBKcEEGwGeDY,Jay Wheeler;Mora,Suelta,Suelta,76,243934,False,0.859,0.553,9,-5.726,0,0.0456,0.628,0.00011,0.109,0.338,122.048,4,reggaeton
+89852,3f5lA8nnc4YYF1qf78WpHw,Anuel AA;Romeo Santos,Ella Quiere Beber (Remix),Ella Quiere Beber - Remix,76,219357,False,0.75,0.665,8,-3.083,1,0.124,0.265,0.0,0.0515,0.697,95.239,4,reggaeton
+89811,4uoR6qeWeuL4Qeu2qJzkuG,Maluma,Hawái,Hawái,76,200197,False,0.787,0.728,6,-3.455,0,0.389,0.189,2.29e-05,0.0629,0.545,180.066,4,reggaeton
+89556,0IqCoZ168iRc9LqfrYgpZy,Camilo;Shawn Mendes,KESI (Remix),KESI - Remix,76,176575,False,0.871,0.815,4,-4.439,1,0.0477,0.127,6.18e-06,0.094,0.823,122.959,4,reggaeton
+89753,35UUpTmrcFXNIVIN26ujXl,Sech;Daddy Yankee;J Balvin;ROSALÍA;Farruko,Relación (Remix),Relación - Remix,76,247308,False,0.793,0.771,5,-3.417,1,0.0959,0.0337,1.51e-06,0.284,0.835,171.943,4,reggaeton
+89702,6hf0RpxTbOprT5nnwzkk8e,J Balvin;Maria Becerra,Qué Más Pues?,Qué Más Pues?,76,217773,False,0.891,0.819,8,-3.964,1,0.106,0.0261,0.000354,0.173,0.768,101.968,4,reggaeton
+89756,7mWFF4gPADjTQjC97CgFVt,Ozuna;Daddy Yankee;J Balvin;Farruko;Anuel AA,"Baila Baila Baila (Remix) [feat. Farruko, Anuel Aa]",Baila Baila Baila - Remix,76,235284,False,0.785,0.572,2,-7.504,1,0.123,0.0598,0.0,0.218,0.49,100.016,4,reggaeton
+89706,2FqoR7diymD1Eh7cVb3DMg,Wisin & Yandel;Chris Brown;T-Pain,Líderes,Algo Me Gusta De Ti,76,274946,False,0.627,0.768,11,-5.296,0,0.0325,0.00291,0.0,0.0598,0.237,127.953,4,reggaeton
+89766,6D2TCm4nf5nxAcdGJ7w3QP,J Balvin;Maria Becerra,JOSE,Qué Más Pues?,76,217360,False,0.903,0.817,8,-3.972,1,0.095,0.0272,0.000311,0.242,0.732,102.014,4,reggaeton
+89757,7vrJn5hDSXRmdXoR30KgF1,KAROL G,BICHOTA,BICHOTA,76,178946,True,0.863,0.666,1,-4.158,0,0.152,0.212,0.000493,0.103,0.838,163.908,4,reggaeton
+89552,5cpJFiNwYyWwFLH0V6B3N8,Ozuna;Doja Cat;Sia,Enoc,Del Mar,75,214506,True,0.759,0.636,6,-5.585,1,0.0369,0.0224,0.000143,0.166,0.536,109.976,4,reggaeton
+89962,3VvA1wSxukMLsvXoXtlwWx,Boza,Más Negro Que Rojo,Hecha Pa' Mi,75,186133,False,0.725,0.756,4,-5.013,1,0.0572,0.362,0.000685,0.103,0.828,100.07,4,reggaeton
+89959,6YYmoV9YbBefsspGmqFHbs,Fuego,Una Vaina Loca,Una Vaina Loca,75,188894,False,0.792,0.676,1,-12.813,1,0.0546,0.172,1.93e-05,0.0654,0.712,117.011,4,reggaeton
+89974,4IsO1J5LSrVwkQOIEdZ417,Nicky Jam,Sin Novia,Sin Novia,75,188411,False,0.747,0.752,11,-5.324,1,0.0417,0.116,0.0,0.128,0.512,106.97,4,reggaeton
+89414,63aj87TQG6F3RVO5nbG2VQ,J Balvin;Skrillex,In Da Getto,In Da Getto,75,131065,False,0.915,0.72,8,-3.126,1,0.0459,0.025,1.42e-05,0.0942,0.631,126.986,4,reggaeton
+89809,7KbF6AdprOXEEHlsq11Z6d,Maluma,11:11,11 PM,75,175733,False,0.777,0.712,10,-4.84,1,0.277,0.217,0.0,0.091,0.68,95.692,4,reggaeton
+89977,7Bk0uXKk1uPT0XuQbpFzvs,Los Legendarios;Wisin;Jhay Cortez,Los Legendarios 001,Fiel,75,261665,False,0.849,0.701,6,-4.407,0,0.06,0.407,0.0,0.112,0.505,98.005,4,reggaeton
+89710,6Za3190Sbw39BBC77WSS1C,Natti Natasha;Ozuna,Criminal,Criminal,75,232549,False,0.814,0.813,2,-3.023,0,0.0561,0.03,9.33e-05,0.255,0.839,79.997,4,reggaeton
+89601,0EhpEsp4L0oRGM0vmeaN5e,J Balvin;Dua Lipa;Bad Bunny;Tainy,UN DIA (ONE DAY) (Feat. Tainy),UN DIA (ONE DAY) (Feat. Tainy),75,232253,False,0.571,0.693,6,-8.234,0,0.0545,0.00536,0.0,0.173,0.393,168.169,4,reggaeton
+89861,5W83ErFkO3aKAIS1WMi6u0,Anuel AA;KAROL G,Secreto,Secreto,75,258800,False,0.807,0.803,11,-4.156,1,0.126,0.602,0.00853,0.136,0.706,91.987,4,reggaeton
+89612,3pDhN3qB33AOPhQEkUCaWt,Daddy Yankee,Prestige,Limbo,75,224693,False,0.806,0.875,7,-3.817,1,0.088,0.0838,0.00192,0.065,0.917,125.063,4,reggaeton
+89922,4t9a07PAghtQMRAIP9FQ7Z,Lunay;Daddy Yankee;Bad Bunny,Épico,Soltera - Remix,75,266086,False,0.795,0.783,5,-4.271,1,0.0432,0.361,0.0,0.437,0.799,92.01,4,reggaeton
+89820,1m69ELEgE6k5ZWsap40ozt,Ozuna,Odisea,Se Preparó,75,188080,False,0.739,0.821,1,-4.233,1,0.0852,0.222,9.6e-06,0.311,0.693,171.077,4,reggaeton
+89406,5YUyW9opqNsMSEzzecZih1,Nicky Jam;J Balvin,Intimo,X,74,172854,False,0.594,0.749,9,-5.298,0,0.056,0.0338,0.00106,0.3,0.694,179.968,4,reggaeton
+89611,2B4GHvToeLTOBB4QLzW3Ni,Farruko,La 167,Pepas,74,287120,True,0.762,0.766,7,-3.955,1,0.0343,0.00776,6.98e-05,0.128,0.442,130.001,4,reggaeton
+89708,1c2vVx6knoiZHXbJJ9Mk8L,Justin Quiles;Robin Schulz,AEIOU,AEIOU,74,161880,False,0.689,0.856,5,-3.394,0,0.0813,0.0493,0.0,0.232,0.706,126.108,4,reggaeton
+89609,0bBd6K5X4W7t9GyXcaVOA7,J Balvin;Ed Sheeran,Sigue/Forever My Love,Sigue,74,159386,True,0.889,0.641,7,-4.494,1,0.0668,0.0515,2.75e-05,0.19,0.588,87.99,4,reggaeton
+89659,5Pg4qYTcvCUBBq3jBhKq0t,Daddy Yankee;Pitbull,LEGENDADDY,HOT,74,154493,True,0.898,0.677,11,-6.422,0,0.243,0.0223,0.0,0.35,0.578,130.027,4,reggaeton
+89615,7qCAVkHWZkF44OzOUKf8Cr,Nicky Jam;Enrique Iglesias,Fénix,El Perdón (with Enrique Iglesias),74,205906,False,0.628,0.69,8,-5.83,1,0.0511,0.443,0.0,0.113,0.66,179.908,4,reggaeton
+89776,4Xtlw8oXkIOvzV7crUBKeZ,Daddy Yankee,Barrio Fino En Directo,Rompe,74,188626,True,0.696,0.858,9,-5.155,1,0.0859,0.0727,3.19e-06,0.0631,0.533,176.061,4,reggaeton
+89829,7dT6ccDqmMHvz5C0d8iUND,Abraham Mateo;Ana Mena,Quiero Decirte,Quiero Decirte,74,222348,False,0.751,0.772,4,-3.853,1,0.0383,0.039,0.0,0.102,0.923,117.941,4,reggaeton
+89351,6DXLO8LndZMVOHM0wNbpzg,Don Omar;Lucenzo,Meet The Orphans,Danza Kuduro,74,198786,False,0.699,0.917,0,-4.897,1,0.115,0.078,0.0,0.065,0.889,130.04,4,reggaeton
+89970,48zFZh27QU5qsrBjn4C2FA,Ozuna;Manuel Turizo,Aura,Vaina Loca,74,176133,False,0.754,0.805,6,-4.249,1,0.0752,0.315,0.0,0.203,0.555,93.982,4,reggaeton
+89925,7Dk8r4VR5NoveUvTiCKEXC,Camilo,Pegao,Pegao,74,160733,False,0.807,0.499,1,-4.733,0,0.0616,0.162,0.0,0.104,0.867,90.037,4,reggaeton
+89927,2cXeLEN1eguDzERP5csBUs,Jay Wheeler;DJ Nelson;Myke Towers,Platónicos Mix (DJ Mix),La Curiosidad (feat. Myke Towers) - Mixed,74,93652,False,0.809,0.752,11,-3.638,0,0.206,0.114,0.000187,0.303,0.858,92.14,4,reggaeton
+89560,2CGhzWArXQZG86V1Ztv4Q2,Ozuna,OzuTochi,Mañana,73,192320,False,0.865,0.522,6,-4.648,1,0.0761,0.105,0.0154,0.0671,0.692,91.015,4,reggaeton
+89759,1RouRzlg8OKFeqc6LvdxmB,Maluma,F.A.M.E.,Felices los 4,73,230000,False,0.766,0.756,5,-5.861,1,0.132,0.213,0.0,0.349,0.716,94.027,4,reggaeton
+89709,3AEZUABDXNtecAOSC1qTfo,CNCO,Primera Cita,Reggaetón Lento (Bailemos),73,222560,False,0.761,0.838,4,-3.073,0,0.0502,0.4,0.0,0.176,0.71,93.974,4,reggaeton
+89812,2L95U6syP0bV3fkYYOzmiW,El Alfa;Chael Produciendo;CJ;El Cherry Scom,La Mamá de la Mamá,La Mamá de la Mamá,72,219000,True,0.922,0.927,11,-3.025,1,0.105,0.283,0.00331,0.719,0.796,129.978,4,reggaeton
+89767,3Q7o2zzvXj7QiSCumjBpvu,Becky G;Daviles de Novelda,AMANTES,AMANTES,72,180153,False,0.736,0.77,10,-6.477,0,0.0335,0.109,0.0,0.112,0.837,135.018,4,reggaeton
+89869,2gdBsRfuWGwJwe3X5XwZuI,Ozuna,La Copa,La Copa,72,154628,False,0.913,0.803,0,-3.911,1,0.0353,0.116,0.000275,0.111,0.947,126.016,4,reggaeton
+89452,6KuqAtoeVzxAYOaMveLNpH,Daddy Yankee,Dura,Dura,72,200480,False,0.783,0.84,1,-3.416,1,0.051,0.174,0.0,0.412,0.839,95.001,4,reggaeton
+89707,2AY1UAimvTqjJC8vDJsOyy,Becky G;Bad Bunny,MALA SANTA,Mayores,72,203186,False,0.745,0.836,5,-4.336,0,0.0444,0.145,0.00314,0.116,0.874,96.993,4,reggaeton
+89610,0dKg2vGC1hFqcK5LGTaKzX,KAROL G;Nicki Minaj,KG0516,Tusa,72,201920,False,0.799,0.701,2,-3.272,1,0.282,0.309,7.36e-05,0.0514,0.607,100.946,4,reggaeton
+89973,1LIqNVhaIgxXUt2eVoIQJ3,Maluma,11:11,HP,72,184435,True,0.837,0.791,4,-3.157,0,0.0773,0.252,1.14e-06,0.188,0.618,91.98,4,reggaeton
+89400,0GzuHFG4Ql6DoyxFRnIk3F,Maluma;The Weeknd,Hawái (Remix),Hawái - Remix,72,200481,False,0.766,0.788,6,-3.128,0,0.312,0.105,5.81e-06,0.142,0.609,179.984,4,reggaeton
+89416,7COfe3P7KgfwDwIRB8LIDw,J Balvin;Willy William,Vibras,Mi Gente,72,185040,False,0.548,0.704,11,-4.838,0,0.0777,0.0168,2.25e-05,0.143,0.288,104.666,4,reggaeton
+89904,5Uel5PmPBZICA0TQTI912U,IAmChino;Pitbull;Yandel;El Chacal,Ay Mi Dios,Ay Mi Dios,71,252003,False,0.761,0.829,0,-3.203,0,0.0682,0.169,0.0,0.189,0.814,92.034,4,reggaeton
+89557,5b1je14Oz92lpIlIMLieWw,Farruko,Viaje,Viaje,71,303626,True,0.705,0.799,0,-4.776,0,0.0347,0.0357,0.417,0.0643,0.658,122.018,4,reggaeton
+89903,5Fim1gaXBgsiFfsQAfQSDS,Nicky Jam,Fénix,Hasta el Amanecer,71,198706,False,0.832,0.608,6,-6.042,0,0.0385,0.282,0.0,0.0761,0.589,94.013,4,reggaeton
+89652,2Q4MRMnSAMckugCtR5jgXT,Alvaro Diaz;Rauw Alejandro,Problemón,Problemón,71,193013,False,0.729,0.737,2,-3.727,0,0.064,0.275,7.58e-06,0.137,0.369,91.99,4,reggaeton
+89964,7iqOIHHEmu6Vhw25GgQ2eA,J Balvin;Sech,JOSE,Una Nota,71,170760,False,0.662,0.788,3,-4.55,0,0.205,0.0191,0.0,0.0559,0.711,179.876,4,reggaeton
+89910,0FDMH2ahuIVzCybwHJK9zh,Anuel AA,Real Hasta la Muerte,Quiere Beber,70,187125,False,0.773,0.57,8,-3.482,1,0.113,0.372,0.00524,0.108,0.772,95.038,4,reggaeton
+89817,6MJUCumnQsQEKbCy28tbCP,Daddy Yankee;Anuel AA,Adictiva,Adictiva,70,207853,False,0.788,0.771,4,-3.206,0,0.0563,0.291,5.62e-05,0.172,0.701,99.038,4,reggaeton
+89906,0nDGgXV5oI8TdAmWjUx65l,J Balvin;Ryan Castro,Nivel De Perreo,Nivel De Perreo,70,151573,True,0.802,0.828,1,-3.601,1,0.0756,0.0217,0.0,0.0692,0.722,91.983,4,reggaeton
+89769,0KkIkfsLEJbrcIhYsCL7L5,Anuel AA;Daddy Yankee;KAROL G;Ozuna;J Balvin,Emmanuel,China,70,301714,False,0.786,0.808,7,-3.702,1,0.0881,0.0846,0.000289,0.0822,0.608,105.029,4,reggaeton
+89715,2C2TGgFzrTRIOdQS1vUN5h,J Balvin,Energía,Ginza,70,171093,False,0.73,0.809,5,-6.406,0,0.0876,0.208,0.0013,0.0804,0.825,101.965,4,reggaeton
+89350,4ipnJyDU3Lq15qBAYNqlqK,J Balvin;Willy William,Mi Gente,Mi Gente,70,189440,False,0.774,0.687,11,-4.818,0,0.0584,0.0179,1.17e-05,0.128,0.308,104.959,4,reggaeton
+89969,42lpuSQmnLUM1ZXJVzIVOi,Camilo,Mis Manos,KESI,70,177255,False,0.889,0.756,4,-4.23,1,0.056,0.132,0.0,0.0996,0.918,122.905,4,reggaeton
+89713,4BxzNZpcm1j3JczZzGNe2k,Don Omar;Tego Calderón,The Fast And The Furious: Tokyo Drift (Original Motion Picture Soundtrack),Bandoleros,70,305280,False,0.662,0.896,5,-5.311,0,0.251,0.318,0.0,0.186,0.79,90.622,4,reggaeton
+89858,5PXsZaT8cOxb4mXrA20PMQ,Ozuna,Nibiru,Baila Baila Baila,70,158760,False,0.837,0.626,11,-5.674,0,0.152,0.0588,0.0,0.252,0.592,99.987,4,reggaeton
+89763,1bFgMkoazsyZGSflpCzYm6,Farruko;Tiësto,Pepas (Tiësto Remix),Pepas - Tiësto Remix,70,223384,True,0.769,0.688,7,-4.378,1,0.0501,0.00215,0.107,0.088,0.387,130.026,4,reggaeton
+89415,1q0PYXTbDsirp2l74ng6pn,J Balvin;Skrillex,JOSE,In Da Getto,70,130666,False,0.924,0.723,8,-3.142,1,0.0466,0.0177,2.61e-05,0.113,0.643,126.998,4,reggaeton

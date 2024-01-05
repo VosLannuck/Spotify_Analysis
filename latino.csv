@@ -1,0 +1,175 @@
+,track_id,artists,album_name,track_name,popularity,duration_ms,explicit,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature,track_genre
+68303,5ww2BF9slyYgNOk37BlC4u,Manuel Turizo,La Bachata,La Bachata,98,162637,False,0.835,0.679,7,-5.329,0,0.0364,0.583,1.98e-06,0.218,0.85,124.98,4,latino
+68304,1IHWl5LamUGEuP4ozKQSXZ,Bad Bunny,Un Verano Sin Ti,Tití Me Preguntó,97,243716,False,0.65,0.715,5,-5.198,0,0.253,0.0993,0.000291,0.126,0.187,106.672,4,latino
+68305,6Sq7ltF9Qa7SNFBsV5Cogx,Bad Bunny;Chencho Corleone,Un Verano Sin Ti,Me Porto Bonito,97,178567,True,0.911,0.712,1,-5.105,0,0.0817,0.0901,2.68e-05,0.0933,0.425,92.005,4,latino
+68359,5Eax0qFko2dh7Rl2lYs3bx,Bad Bunny,Un Verano Sin Ti,Efecto,96,213061,False,0.801,0.475,7,-8.797,0,0.0516,0.141,1.73e-05,0.0639,0.234,98.047,4,latino
+68353,3k3NWokhRRkEPhCzPmV8TW,Bad Bunny;Bomba Estéreo,Un Verano Sin Ti,Ojitos Lindos,95,258298,False,0.647,0.686,3,-5.745,0,0.0413,0.08,1.34e-06,0.528,0.268,79.928,4,latino
+68355,6Xom58OOXk2SoU711L2IXO,Bad Bunny,Un Verano Sin Ti,Moscow Mule,94,245939,True,0.804,0.674,5,-5.453,0,0.0333,0.294,1.18e-06,0.115,0.292,99.968,4,latino
+68514,41oY4WCTj5kccfesTVFnvN,Bad Bunny;Jhayco,Un Verano Sin Ti,Tarot,91,237894,True,0.795,0.684,11,-3.971,0,0.0419,0.0225,0.0,0.658,0.419,114.011,4,latino
+68554,6i1g5ZRmJZAkDwBaUZ3f2i,Luar La L,L3tra,Caile,91,141340,True,0.704,0.756,0,-4.948,1,0.448,0.298,3.75e-06,0.0852,0.461,121.737,3,latino
+68501,79HZAZNnOE97rb2hnI0XQr,Rauw Alejandro;Lyanno;Brray,LOKERA,LOKERA,91,195294,False,0.834,0.828,11,-2.657,0,0.0452,0.21,5.91e-06,0.103,0.58,102.019,4,latino
+68553,4tYFy8ALRjIZvnvSLw5lxN,Bad Bunny;Rauw Alejandro,Un Verano Sin Ti,Party,90,227628,False,0.829,0.799,9,-5.389,1,0.0897,0.0151,0.000543,0.242,0.471,97.013,4,latino
+68673,1797zYiX4cKosMH836X9Gt,Bad Bunny;Tony Dize,Un Verano Sin Ti,La Corriente,90,198367,True,0.663,0.786,11,-3.51,0,0.195,0.229,0.0,0.219,0.579,196.12,4,latino
+68611,5jt25aFjW2kNoBqaEVaz5W,Mora;Feid,MICRODOSIS,LA INOCENTE,89,202173,True,0.757,0.789,5,-3.46,0,0.0583,0.307,0.0,0.0717,0.464,91.911,4,latino
+68651,3fjN3y5x4hN53rykAN2LHQ,Rels B,cómo dormiste?,cómo dormiste?,89,112572,True,0.627,0.429,1,-8.255,1,0.234,0.238,0.0,0.122,0.565,126.426,5,latino
+68663,6DoL1yYIwEW7VZMRaJhoJI,Chris Jedi;Anuel AA;Chencho Corleone;Ñengo Flow,La Llevo Al Cielo (Ft. Ñengo Flow),La Llevo Al Cielo (Ft. Ñengo Flow),88,254920,True,0.795,0.845,9,-3.809,0,0.135,0.105,1.14e-05,0.172,0.769,170.023,4,latino
+68604,0kTMK4gNFfLXaTb62w1UaJ,Pablo Pesadilla;Polimá Westcoast;Nickoog Clk;Fran C,BABY OTAKU,BABY OTAKU,88,176470,True,0.835,0.747,9,-4.65,1,0.083,0.0492,0.0,0.055,0.432,102.003,4,latino
+68600,0fea68AdmYNygeTGI4RC18,J Balvin;Bad Bunny,OASIS,LA CANCIÓN,88,242573,False,0.754,0.646,7,-5.795,1,0.317,0.152,1.85e-05,0.108,0.429,176.089,4,latino
+68701,4gzsuuZypVbxs0Af1LSZyB,Tainy;Bad Bunny;Julieta Venegas,Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),87,207301,False,0.639,0.703,4,-6.33,0,0.0794,0.0889,1.78e-06,0.0865,0.138,169.888,4,latino
+68716,5CzixCxDkRXX9mScCmah8O,Bad Bunny,Un Verano Sin Ti,Un Ratito,87,176936,False,0.787,0.546,0,-7.094,0,0.0532,0.305,4.55e-05,0.122,0.222,93.05,4,latino
+68726,3kUq4sBcmxhnOtNysZ9yrp,Feid,Feliz Cumpleaños Ferxxo,Feliz Cumpleaños Ferxxo,87,156400,False,0.87,0.55,5,-5.537,1,0.0722,0.102,0.0,0.293,0.566,95.019,4,latino
+68602,2JPLbjOn0wPCngEot2STUS,Bad Bunny,Yonaguni,Yonaguni,87,206710,True,0.644,0.648,1,-4.601,1,0.118,0.276,0.0,0.135,0.44,179.951,4,latino
+68860,4d4ZXH4dr5bYfgErHiZCX2,Bad Bunny,Un Verano Sin Ti,Dos Mil 16,87,208615,False,0.817,0.67,1,-6.534,1,0.0506,0.123,1.92e-06,0.128,0.495,130.058,3,latino
+68866,6VrQTLzzuyGIYjUDe4kAZk,Bad Bunny,Un Verano Sin Ti,Un Coco,87,196412,False,0.839,0.69,11,-4.464,1,0.0615,0.207,8.33e-06,0.176,0.744,151.991,4,latino
+68671,3PpWCS95gDUDRPko3u1MZ9,Feid,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,Prohibidox,86,166253,False,0.647,0.801,1,-2.946,0,0.249,0.0451,0.0,0.0628,0.517,180.108,4,latino
+68865,44XjoNvtwevktFKjvVe1vH,Bad Bunny;Buscabulla,Un Verano Sin Ti,Andrea,86,339611,True,0.797,0.616,1,-10.229,0,0.375,0.762,0.000293,0.0979,0.451,103.071,4,latino
+68302,5fwSHlTEWpluwOM0Sxnh5k,Farruko,Pepas,Pepas,86,287120,True,0.762,0.766,7,-3.955,1,0.0343,0.00776,6.98e-05,0.128,0.442,130.001,4,latino
+68653,2TDyyEBasw10wu5Uh94bR1,Rauw Alejandro;Baby Rasta,PUNTO 40,PUNTO 40,85,190654,True,0.873,0.826,0,-0.722,1,0.0876,0.00127,0.0361,0.311,0.201,106.972,4,latino
+68816,5kVZxyMY1gfdCLiChsfjn1,Bad Bunny,Un Verano Sin Ti,Yo No Soy Celoso,85,230704,True,0.872,0.588,0,-6.276,1,0.0492,0.275,0.0,0.17,0.93,142.004,4,latino
+68874,28GCbKgjlVD9eDmasGbe0T,Bad Bunny,Un Verano Sin Ti,Me Fui de Vacaciones,85,180929,False,0.714,0.645,10,-5.493,1,0.0514,0.229,0.00083,0.0942,0.434,85.046,4,latino
+68756,0E0DRHf5PfMeor0ZCwB3oT,Bad Bunny;The Marías,Un Verano Sin Ti,Otro Atardecer,85,244444,False,0.777,0.595,2,-6.79,1,0.0375,0.59,0.00139,0.0669,0.546,108.02,4,latino
+68760,2z9YkcLojiOE7Eu2p9lPZR,Feid,Normal,Normal,85,171986,True,0.712,0.557,4,-4.861,0,0.115,0.0397,0.0,0.27,0.594,170.079,4,latino
+68721,48AJSd42lXpicsGqcgopof,Daddy Yankee;Bad Bunny,LEGENDADDY,X ÚLTIMA VEZ,85,192477,True,0.812,0.855,7,-3.725,1,0.0554,0.0789,0.000167,0.108,0.573,90.04,4,latino
+68729,5fhcuVxuBWfgNXGuyAtLmr,Piso 21;Manuel Turizo,Los Cachos,Los Cachos,85,212304,False,0.774,0.73,0,-3.865,1,0.134,0.108,0.0,0.194,0.421,91.966,4,latino
+68612,2hLXUbsOU9cDb9RFva9FYr,Mora;Jhayco,MICRODOSIS,MEMORIAS,85,228750,False,0.771,0.707,2,-6.404,0,0.055,0.389,0.0,0.0745,0.317,127.963,4,latino
+68301,5gflgO9EPbIBf16n5TKnQS,Zion & Lennox,Motivando a la Yal,Yo Voy (feat. Daddy Yankee),84,232019,False,0.808,0.697,10,-5.899,1,0.241,0.041,0.0,0.0546,0.554,95.06,4,latino
+68669,2CeKVsFFXG4QzA415QygGb,Feid,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,Feliz Cumpleaños Ferxxo,84,155960,False,0.865,0.573,5,-5.501,1,0.0678,0.0863,0.0,0.305,0.563,94.999,4,latino
+68824,2NMjggapJcXXM7WccGEBUO,Bad Bunny,Un Verano Sin Ti,Enséñame a Bailar,84,176000,False,0.81,0.789,8,-5.08,1,0.0846,0.191,1.08e-05,0.467,0.77,105.009,4,latino
+68707,69vlMrzHwATKzupwNcUPyK,Bad Bunny;Daddy Yankee,YHLQMDLG,La Santa,84,206420,True,0.744,0.868,1,-4.524,1,0.047,0.0326,0.0,0.0822,0.586,93.037,4,latino
+68916,2uflssWlCaJ6CbTMOsUpNI,Bad Bunny,Un Verano Sin Ti,Aguacero,84,210989,False,0.861,0.645,6,-6.96,0,0.0743,0.423,0.000592,0.349,0.668,121.391,5,latino
+68765,6ZOcbKub95XSDESsKKuH41,Rauw Alejandro;Chencho Corleone,Desesperados,Desesperados,83,224996,True,0.869,0.694,1,-3.35,0,0.0783,0.356,0.00125,0.0878,0.511,90.02,4,latino
+68802,0G2zPzWqVjR68iNPmx2TBe,Mora;Bad Bunny;Sech,Volando (Remix),Volando - Remix,83,273474,True,0.659,0.688,6,-4.649,1,0.0673,0.207,0.0,0.113,0.632,153.979,4,latino
+68854,6C1RD7YQVvt3YQj0CmuTeu,Bad Bunny;Ozuna;Farruko;Arcangel;Ñengo Flow;DJ Luian;Mambo Kingz,Diles,Diles,83,286040,True,0.813,0.56,2,-5.904,0,0.0618,0.108,0.0,0.268,0.287,118.033,4,latino
+68668,6mmPpaltUZK7xjNlBPQQ0p,Rauw Alejandro;Chencho Corleone,VICE VERSA,Desesperados,83,224996,True,0.869,0.694,1,-3.35,0,0.0783,0.356,0.00125,0.0878,0.511,90.02,4,latino
+68500,47EiUVwUp4C9fGccaPuUCS,Bad Bunny;Jhayco,DÁKITI,DÁKITI,83,205090,True,0.731,0.573,4,-10.059,0,0.0544,0.401,5.22e-05,0.113,0.145,109.928,4,latino
+68773,02jLfqc9gMo8PkHEGHY3OT,Feid,Si Te La Encuentras Por Ahí,Si Te La Encuentras Por Ahí,83,191573,False,0.743,0.576,8,-3.552,0,0.076,0.151,5.87e-05,0.128,0.455,171.945,4,latino
+68974,0UvZcEfpzVyx47QsRbjyBz,Bad Bunny,Un Verano Sin Ti,El Apagón,83,201816,False,0.629,0.698,8,-4.485,1,0.308,0.0509,0.00166,0.0909,0.599,117.765,4,latino
+68971,0wihfILRNOwE2156Shezc8,Bad Bunny,Un Verano Sin Ti,Agosto,83,139041,False,0.849,0.584,1,-8.195,0,0.115,0.0929,6.18e-06,0.492,0.724,115.018,4,latino
+68904,7hynhxDoDpgMIV12JuVtNa,J Balvin;Bad Bunny;Marciano Cantero,OASIS,UN PESO,83,277106,False,0.627,0.675,5,-7.125,0,0.213,0.125,0.0,0.0784,0.961,79.31,4,latino
+68800,2vmfvSoZBFAt9hhRoEByLi,Aventura;Bad Bunny,Volví,Volví,83,230125,True,0.725,0.86,1,-3.726,1,0.182,0.422,0.000284,0.0674,0.791,175.896,4,latino
+68968,4r9jkMEnArtWGH2rL2FZl0,Bad Bunny,YHLQMDLG,A Tu Merced,83,175918,False,0.86,0.791,0,-4.784,1,0.0568,0.169,0.000106,0.106,0.887,92.023,4,latino
+68951,35wvL50xvKpCHEJPxLOLPI,Bad Bunny,X 100PRE,Si Estuviésemos Juntos,83,169247,True,0.672,0.594,1,-6.813,0,0.0789,0.0626,5.14e-05,0.152,0.158,171.854,4,latino
+68813,5GF0X7GdNmnouKcdhhRmtm,Paulo Londra;Duki,Party en el Barrio (feat. Duki),Party en el Barrio (feat. Duki),83,236143,True,0.527,0.665,10,-7.108,1,0.164,0.0168,1.29e-06,0.324,0.546,135.026,4,latino
+68655,6TsVhM8qIkWN5cJVDIVbbz,Wisin & Yandel;ROSALÍA,La Última Misión,Besos Moja2,83,229064,False,0.736,0.727,5,-4.642,0,0.0571,0.0584,1.91e-06,0.0976,0.644,94.048,4,latino
+68603,2XIc1pqjXV3Cr2BQUGNBck,Bad Bunny;ROSALÍA,EL ÚLTIMO TOUR DEL MUNDO,LA NOCHE DE ANOCHE,82,203200,False,0.856,0.618,7,-4.892,1,0.286,0.0303,0.0,0.0866,0.391,81.993,4,latino
+68724,6ojZtz3sZr6ynvejLOqgCj,Tiago PZK;Ozuna,Nos Comemos (feat. Ozuna),Nos Comemos (feat. Ozuna),82,191086,True,0.827,0.819,6,-3.701,1,0.052,0.1,0.0,0.089,0.562,92.017,4,latino
+68910,0vHfVsEe6Ps0d8cZ9PGzSw,De La Ghetto;Rauw Alejandro,Loco Por Perrearte (Remix),Loco Por Perrearte - Remix,82,199148,True,0.848,0.673,11,-4.034,0,0.058,0.0147,0.00652,0.102,0.39,93.987,4,latino
+68855,03a359wbiUsjN9h6yzXvmS,Duki;KHEA,She Don't Give a Fo,She Don't Give a Fo,82,209531,False,0.854,0.556,1,-4.49,1,0.14,0.345,0.0,0.165,0.342,119.938,4,latino
+68714,4srcMdbm2qzVG98tJajHxp,Alejo;Feid;ROBI,Pantysito,Pantysito,82,240413,True,0.83,0.739,7,-5.395,0,0.0627,0.136,2.11e-06,0.162,0.631,97.993,4,latino
+68605,4fSIb4hdOQ151TILNsSEaF,Rauw Alejandro,Todo De Ti,Todo De Ti,82,199604,True,0.78,0.718,3,-3.605,0,0.0506,0.31,0.000163,0.0932,0.342,127.949,4,latino
+68757,4SSbtLDkepeOHAckM1FCBP,El Alfa;Noriel;Trueno,LOS APARATOS,LOS APARATOS,82,232843,False,0.868,0.878,1,-3.294,1,0.038,0.0509,0.00052,0.0857,0.899,112.987,4,latino
+68308,228BxWXUYQPJrJYHDLOHkj,Daddy Yankee,Barrio Fino (Bonus Track Version),Gasolina,82,192600,False,0.852,0.797,0,-6.543,1,0.0614,0.322,2.69e-06,0.0845,0.741,96.008,4,latino
+68700,4R8BJggjosTswLxtkw8V7P,Jhayco;J Balvin;Bad Bunny,Famouz,No Me Conoce - Remix,82,309120,False,0.806,0.786,10,-3.831,0,0.0741,0.145,0.0,0.0935,0.58,91.973,4,latino
+68903,41wtwzCZkXwpnakmwJ239F,Bad Bunny,YHLQMDLG,Si Veo a Tu Mamá,82,170971,False,0.9,0.603,2,-5.313,1,0.0646,0.402,4.81e-06,0.134,0.824,129.928,4,latino
+68901,2tFwfmceQa1Y6nRPhYbEtC,Jhayco;Bad Bunny,CÓMO SE SIENTE (Remix),CÓMO SE SIENTE - Remix,82,227520,True,0.807,0.606,3,-8.871,0,0.088,0.0946,0.0,0.119,0.304,92.988,4,latino
+68832,6e9Ew4AECYwY5Xgs2ZKMgp,Anuel AA,Mercedes Tintia,Mercedes Tintia,81,195348,True,0.815,0.67,11,-4.076,1,0.109,0.0902,0.000854,0.0973,0.768,172.014,4,latino
+68727,7d7aPD2oxuzjhOZnu4Dj23,Natti Natasha;Daddy Yankee;Wisin & Yandel,Mayor Que Usted,Mayor Que Usted,81,233519,False,0.625,0.839,6,-4.824,0,0.0927,0.00762,2.35e-05,0.464,0.771,184.08,4,latino
+68772,4HzqWEdAbzcVFDv0pvxV4w,Maluma,Sobrio,Sobrio,81,201180,False,0.762,0.77,5,-2.758,1,0.223,0.138,0.0,0.15,0.631,177.998,4,latino
+68952,5RubKOuDoPn5Kj5TLVxSxY,Bad Bunny,EL ÚLTIMO TOUR DEL MUNDO,TE MUDASTE,81,130013,True,0.811,0.637,10,-4.835,0,0.0591,0.234,0.000572,0.118,0.471,92.025,4,latino
+68967,2IzV2SPZQLadtA46ni3ICq,Zion & Lennox;Maria Becerra,Berlin,Berlin,81,246061,False,0.796,0.766,1,-4.237,1,0.0422,0.18,1.53e-06,0.164,0.846,121.008,4,latino
+68751,25ZAibhr3bdlMCLmubZDVt,J Balvin;Bad Bunny,OASIS,QUE PRETENDES,81,222346,False,0.639,0.791,10,-4.443,0,0.253,0.0275,0.0,0.362,0.939,92.603,4,latino
+68615,4XqXNU8MwPHwbgZmNXmAdc,Maluma,Junio,Junio,81,168601,False,0.85,0.756,11,-3.439,0,0.0407,0.0999,0.0,0.0873,0.896,120.024,4,latino
+68912,71wFwRo8xGc4lrcyKwsvba,Bad Bunny;Tainy,Un Verano Sin Ti,Callaita,81,250533,False,0.608,0.626,2,-4.773,1,0.301,0.597,2.16e-06,0.25,0.246,176.086,4,latino
+68763,6ifUES3keWjwXgae8pXI3o,Danny Ocean,54+1,Me Rehúso,80,205714,False,0.744,0.804,1,-6.327,1,0.0677,0.0231,0.0,0.0494,0.426,104.823,4,latino
+68907,2DEZmgHKAvm41k4J3R2E9Y,Bad Bunny;Jowell & Randy;Ñengo Flow,YHLQMDLG,Safaera,80,295176,True,0.607,0.829,2,-4.074,1,0.379,0.0103,0.0,0.107,0.685,96.172,4,latino
+68863,30W8VKHrAZmHzObnwAoc1u,Mora;Sech,MICRODOSIS,TUS LÁGRIMAS,80,174482,True,0.683,0.714,1,-4.898,1,0.252,0.181,1e-06,0.111,0.448,173.963,4,latino
+68350,2BEcap3xJtmiPaHKyfQi4e,Rvssian;Rauw Alejandro;Chris Brown,Nostálgico,Nostálgico,80,209883,True,0.734,0.846,9,-3.425,0,0.0489,0.166,1.74e-06,0.235,0.604,98.026,4,latino
+68768,77l75UICfUZK5k0G7WRGqg,Tiago PZK;Myke Towers,Traductor,Traductor,80,222857,False,0.845,0.776,11,-3.098,0,0.0488,0.111,0.0321,0.0684,0.528,105.018,4,latino
+68674,5B60XFKzm8WsJTdVyt4u4I,Myke Towers,Luces De Neón,Luces De Neón,80,219789,True,0.747,0.619,3,-6.009,1,0.0588,0.0865,2.03e-05,0.103,0.567,94.98,4,latino
+68550,4MzXwWMhyBbmu6hOcLVD49,Bad Bunny;Jhay Cortez,EL ÚLTIMO TOUR DEL MUNDO,DÁKITI,80,205090,True,0.731,0.573,4,-10.059,0,0.0544,0.401,5.22e-05,0.113,0.145,109.928,4,latino
+68965,3SlKme42qm1vWrkl3BrZmm,Maluma;Chencho Corleone,Nos Comemos Vivos,Nos Comemos Vivos,80,225365,False,0.822,0.719,10,-3.633,0,0.0576,0.165,2.48e-05,0.174,0.659,82.01,4,latino
+68962,0T2pB7P1VdXPhLdQZ488uH,Feid,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,Normal,80,171880,True,0.709,0.56,4,-4.867,0,0.171,0.034,0.0,0.315,0.541,170.082,4,latino
+68812,4HYDUMY0xSpeBr0AMY9cUz,Jay Wheeler;DJ Nelson;Myke Towers,Platonicos,La Curiosidad,80,219048,False,0.845,0.677,11,-4.798,0,0.136,0.269,0.000917,0.108,0.68,90.013,4,latino
+68953,6NfrH0ANGmgBXyxgV2PeXt,Bad Bunny,YHLQMDLG,La Difícil,80,163084,True,0.685,0.848,8,-4.561,0,0.0858,0.0861,7.14e-06,0.0783,0.761,179.87,4,latino
+68702,2TH65lNHgvLxCKXM3apjxI,Bad Bunny;Tainy,Callaita,Callaita,80,250533,True,0.61,0.624,2,-4.773,1,0.309,0.6,2.12e-06,0.243,0.244,176.169,4,latino
+68725,3XjN0mvFkQp1FMVM9Ro5hm,Daddy Yankee,LEGENDADDY,RUMBATÓN,79,248768,False,0.685,0.909,3,-4.034,0,0.0396,0.0471,0.0,0.35,0.922,95.004,4,latino
+68804,1FlL8ycld6uVDDyhV7P5FA,Rauw Alejandro,VICE VERSA,Cúrame,79,164705,True,0.765,0.625,9,-3.599,0,0.0548,0.584,0.00111,0.112,0.262,102.101,4,latino
+68352,116H0KvKr2Zl4RPuVBruDO,Bad Bunny;Drake,MIA (feat. Drake),MIA (feat. Drake),79,210367,False,0.817,0.539,6,-6.349,0,0.0621,0.0141,0.000496,0.099,0.158,97.062,4,latino
+68954,0gCPvo1GkbtPhMqg5Gbx1K,Daddy Yankee;Bad Bunny,Vuelve,Vuelve,79,279613,False,0.734,0.531,1,-5.662,1,0.0321,0.196,0.0,0.119,0.199,130.024,4,latino
+68913,5kqNIqFjijuzvVLhuY9B8j,Bad Bunny,YHLQMDLG,La Zona,79,136892,True,0.762,0.801,1,-3.661,0,0.0409,0.2,7.04e-05,0.254,0.81,93.992,4,latino
+68667,4qGr8HmRjhdRoUCnLf82eM,Rvfv;Duki,Pantera,Pantera,79,181333,True,0.817,0.64,9,-4.397,0,0.1,0.254,0.0,0.197,0.398,90.011,4,latino
+68306,5w9c2J52mkdntKOmRLeM2m,Daddy Yankee;Snow,Con Calma,Con Calma,79,193226,False,0.737,0.86,8,-2.652,0,0.0593,0.11,1.94e-06,0.0574,0.656,93.989,4,latino
+68906,05bfbizlM5AX6Mf1RRyMho,Nio Garcia;J Balvin;Bad Bunny,AM Remix,AM Remix,79,261334,True,0.743,0.655,6,-5.015,0,0.159,0.114,0.0,0.0764,0.785,172.031,4,latino
+68850,5DxXgozhkPLgrbKFY91w0c,Bad Bunny,Vete,Vete,79,192024,True,0.886,0.672,1,-4.394,1,0.188,0.0363,8.78e-06,0.101,0.526,91.976,4,latino
+68853,6JUMswocQ7Hp46kj9kyljT,Feid;Yandel,FELIZ CUMPLEAÑOS FERXXO TE PIRATEAMOS EL ÁLBUM,XQ Te Pones Así,79,218693,False,0.812,0.697,10,-3.441,1,0.0694,0.134,0.0,0.147,0.477,92.03,4,latino
+68759,0SqqAgdovOE24BzxIClpjw,Bad Bunny,YHLQMDLG,Yo Perreo Sola,79,172127,False,0.86,0.758,11,-5.16,1,0.0695,0.021,6.54e-05,0.344,0.453,97.014,4,latino
+68670,4OAPnWJ3J5w4c4IBLh2chn,Daddy Yankee;El Alfa;Lil Jon,LEGENDADDY,BOMBÓN,78,182413,True,0.843,0.789,7,-2.801,1,0.247,0.0028,2.41e-05,0.0322,0.571,125.071,4,latino
+68709,3rdAz1fbUfZxYgaCviYhRo,Rauw Alejandro,VICE VERSA,Todo De Ti,78,199604,True,0.78,0.719,3,-3.613,0,0.0506,0.302,0.000196,0.0931,0.336,127.962,4,latino
+68918,6AizmGCrFRQHru1Qf8WKoJ,Myke Towers;Jhay Cortez,Ande Con Quien Ande,Ande Con Quien Ande,78,208734,True,0.825,0.736,7,-5.55,1,0.0913,0.0822,0.0,0.158,0.508,92.028,4,latino
+68859,5q2JbCNi4FcnglgPfxcV65,Anuel AA;Daddy Yankee;Zion & Lennox;Farruko;Wisin,Sola (Remix),Sola (Remix),78,307910,False,0.639,0.869,11,-4.024,1,0.147,0.27,0.0,0.0802,0.767,169.801,4,latino
+68650,3V8UKqhEK5zBkBb6d6ub8i,Nio Garcia;Casper Magico;Bad Bunny;Darell;Ozuna;Nicky Jam,Te Boté (Remix),Te Boté - Remix,78,417920,True,0.903,0.675,11,-3.445,0,0.214,0.542,1.28e-05,0.0595,0.442,96.507,4,latino
+68770,0TkIQ2I48rz4kpk1XpfyHq,Rvfv;Rels B,NASTU,Mi Luz (ft. Rels B),77,168000,False,0.705,0.526,6,-6.359,1,0.327,0.509,0.000106,0.0742,0.671,200.031,4,latino
+68806,3JCaq3KDSROg3TXhdiDa9n,Jhayco;Anuel AA,Timelezz,Ley Seca,77,263253,False,0.759,0.842,8,-3.758,1,0.096,0.101,0.0,0.134,0.584,105.059,4,latino
+68666,2mzDRrBn6M6rWX4bGzd1uQ,Chimbala,Feliz,Feliz,77,177240,False,0.848,0.852,8,-2.158,0,0.103,0.373,0.0323,0.0865,0.956,129.995,4,latino
+68732,5R7l05dglCrUX0qjZ1Eec1,Cyril Kamer,Cinderella,Cinderella,77,193124,True,0.793,0.694,5,-5.731,0,0.0426,0.13,0.0,0.0836,0.484,127.971,4,latino
+68762,6D2TCm4nf5nxAcdGJ7w3QP,J Balvin;Maria Becerra,JOSE,Qué Más Pues?,77,217360,False,0.903,0.817,8,-3.972,1,0.095,0.0272,0.000311,0.242,0.732,102.014,4,latino
+68950,1khmgu0pveJbkbpbkyvcQv,Bad Bunny;El Alfa,X 100PRE,La Romana,77,300579,True,0.655,0.725,0,-5.497,1,0.188,0.0327,0.00264,0.0611,0.326,125.8,4,latino
+68917,3M23T72K5eqHI2GzdFMMHE,Anuel AA,Brother,Brother,77,209578,True,0.592,0.625,10,-6.203,0,0.2,0.618,9.71e-05,0.287,0.555,166.018,4,latino
+68609,1yoMvmasuxZfqHEipJhRbp,Maluma,PAPI JUANCHO,Hawái,77,199112,False,0.783,0.727,6,-3.454,0,0.389,0.185,2.46e-05,0.0626,0.558,180.067,4,latino
+68905,6De0lHrwBfPfrhorm9q1Xl,Danny Ocean,Me Rehúso,Me Rehúso,77,205714,False,0.744,0.804,1,-6.327,1,0.0677,0.0231,0.0,0.0494,0.426,104.823,4,latino
+68708,7mWFF4gPADjTQjC97CgFVt,Ozuna;Daddy Yankee;J Balvin;Farruko;Anuel AA,"Baila Baila Baila (Remix) [feat. Farruko, Anuel Aa]",Baila Baila Baila - Remix,76,235284,False,0.785,0.572,2,-7.504,1,0.123,0.0598,0.0,0.218,0.49,100.016,4,latino
+68852,3f5lA8nnc4YYF1qf78WpHw,Anuel AA;Romeo Santos,Ella Quiere Beber (Remix),Ella Quiere Beber - Remix,76,219357,False,0.75,0.665,8,-3.083,1,0.124,0.265,0.0,0.0515,0.697,95.239,4,latino
+68607,2ksOAxtIxY8yElEWw8RhgK,Anuel AA;Daddy Yankee;KAROL G;J Balvin;Ozuna,China,China,76,301714,False,0.786,0.808,7,-3.702,1,0.0882,0.0846,0.000289,0.0822,0.609,105.027,4,latino
+68521,1zsPaEkglFvxjAhrM8yhpr,Ozuna;Feid,OzuTochi,Hey Mor,76,196600,False,0.901,0.589,1,-6.713,0,0.289,0.00302,0.000237,0.0992,0.399,98.002,4,latino
+68705,6hf0RpxTbOprT5nnwzkk8e,J Balvin;Maria Becerra,Qué Más Pues?,Qué Más Pues?,76,217773,False,0.891,0.819,8,-3.964,1,0.106,0.0261,0.000354,0.173,0.768,101.968,4,latino
+68706,35UUpTmrcFXNIVIN26ujXl,Sech;Daddy Yankee;J Balvin;ROSALÍA;Farruko,Relación (Remix),Relación - Remix,76,247308,False,0.793,0.771,5,-3.417,1,0.0959,0.0337,1.51e-06,0.284,0.835,171.943,4,latino
+68856,7kN7u1ZDOrNBKcEEGwGeDY,Jay Wheeler;Mora,Suelta,Suelta,76,243934,False,0.859,0.553,9,-5.726,0,0.0456,0.628,0.00011,0.109,0.338,122.048,4,latino
+68662,6stWVqWxtPPednHy1mzoOz,Rvfv;Kikimoteleba,Tigini (Remix),Tigini (Remix),76,175555,False,0.782,0.655,6,-5.971,0,0.0566,0.377,0.00134,0.0749,0.662,135.018,4,latino
+68805,4uoR6qeWeuL4Qeu2qJzkuG,Maluma,Hawái,Hawái,76,200197,False,0.787,0.728,6,-3.455,0,0.389,0.189,2.29e-05,0.0629,0.545,180.066,4,latino
+68963,5y7DaS3jAc9eZzcSOoUIwU,Ozuna;J Balvin;Chencho Corleone,Enoc,Una Locura,76,230693,False,0.714,0.761,5,-4.596,0,0.0427,0.139,0.00035,0.241,0.906,168.022,4,latino
+68656,2FqoR7diymD1Eh7cVb3DMg,Wisin & Yandel;Chris Brown;T-Pain,Líderes,Algo Me Gusta De Ti,76,274946,False,0.627,0.768,11,-5.296,0,0.0325,0.00291,0.0,0.0598,0.237,127.953,4,latino
+68769,6PDlkWmrq2ZKiUuFt2aQsH,Justin Quiles;Chimbala;Zion & Lennox,Loco,Loco,76,231603,False,0.77,0.899,8,-2.981,1,0.0494,0.222,1.14e-06,0.0894,0.851,128.05,4,latino
+68960,1mSviQV9iQnGSRyvTIuxAj,Alvaro Diaz;Rauw Alejandro,Felicilandia,Problemón,75,192613,False,0.706,0.739,10,-3.753,1,0.0586,0.266,2.62e-05,0.126,0.371,91.906,4,latino
+68811,1m69ELEgE6k5ZWsap40ozt,Ozuna,Odisea,Se Preparó,75,188080,False,0.739,0.821,1,-4.233,1,0.0852,0.222,9.6e-06,0.311,0.693,171.077,4,latino
+68966,4t9a07PAghtQMRAIP9FQ7Z,Lunay;Daddy Yankee;Bad Bunny,Épico,Soltera - Remix,75,266086,False,0.795,0.783,5,-4.271,1,0.0432,0.361,0.0,0.437,0.799,92.01,4,latino
+68307,63aj87TQG6F3RVO5nbG2VQ,J Balvin;Skrillex,In Da Getto,In Da Getto,75,131065,False,0.915,0.72,8,-3.126,1,0.0459,0.025,1.42e-05,0.0942,0.631,126.986,4,latino
+68555,3pDhN3qB33AOPhQEkUCaWt,Daddy Yankee,Prestige,Limbo,75,224693,False,0.806,0.875,7,-3.817,1,0.088,0.0838,0.00192,0.065,0.917,125.063,4,latino
+68975,0RGpd5zCowfEItCUF7Itpr,Farruko,Nazareno,Nazareno,75,223173,True,0.658,0.725,7,-4.604,0,0.0321,0.0292,0.000107,0.163,0.368,128.117,4,latino
+68601,0EhpEsp4L0oRGM0vmeaN5e,J Balvin;Dua Lipa;Bad Bunny;Tainy,UN DIA (ONE DAY) (Feat. Tainy),UN DIA (ONE DAY) (Feat. Tainy),75,232253,False,0.571,0.693,6,-8.234,0,0.0545,0.00536,0.0,0.173,0.393,168.169,4,latino
+68755,7KbF6AdprOXEEHlsq11Z6d,Maluma,11:11,11 PM,75,175733,False,0.777,0.712,10,-4.84,1,0.277,0.217,0.0,0.091,0.68,95.692,4,latino
+68851,5W83ErFkO3aKAIS1WMi6u0,Anuel AA;KAROL G,Secreto,Secreto,75,258800,False,0.807,0.803,11,-4.156,1,0.126,0.602,0.00853,0.136,0.706,91.987,4,latino
+68505,6Rpbzk2LC8xWZI93RyodAq,Ozuna;Feid,Hey Mor,Hey Mor,75,196600,False,0.901,0.589,1,-6.713,0,0.289,0.00302,0.000237,0.0992,0.399,98.002,4,latino
+68502,5cpJFiNwYyWwFLH0V6B3N8,Ozuna;Doja Cat;Sia,Enoc,Del Mar,75,214506,True,0.759,0.636,6,-5.585,1,0.0369,0.0224,0.000143,0.166,0.536,109.976,4,latino
+68920,4IsO1J5LSrVwkQOIEdZ417,Nicky Jam,Sin Novia,Sin Novia,75,188411,False,0.747,0.752,11,-5.324,1,0.0417,0.116,0.0,0.128,0.512,106.97,4,latino
+68657,6Za3190Sbw39BBC77WSS1C,Natti Natasha;Ozuna,Criminal,Criminal,75,232549,False,0.814,0.813,2,-3.023,0,0.0561,0.03,9.33e-05,0.255,0.839,79.997,4,latino
+68665,6N7LquYjc3c53qr4PSJbi5,Paulo Londra;Ed Sheeran,Noche de Novela (feat. Ed Sheeran),Noche de Novela (feat. Ed Sheeran),75,191896,False,0.522,0.585,7,-7.205,1,0.129,0.00208,0.0,0.0909,0.411,97.99,4,latino
+68914,3VvA1wSxukMLsvXoXtlwWx,Boza,Más Negro Que Rojo,Hecha Pa' Mi,75,186133,False,0.725,0.756,4,-5.013,1,0.0572,0.362,0.000685,0.103,0.828,100.07,4,latino
+68809,23WI5V2eD4EyGKxSl7Pyeq,Chino & Nacho;Daddy Yankee,Andas En Mi Cabeza,Andas En Mi Cabeza,74,247493,False,0.671,0.954,9,-1.87,1,0.13,0.0244,0.0,0.111,0.556,104.114,4,latino
+68250,6DXLO8LndZMVOHM0wNbpzg,Don Omar;Lucenzo,Meet The Orphans,Danza Kuduro,74,198786,False,0.699,0.917,0,-4.897,1,0.115,0.078,0.0,0.065,0.889,130.04,4,latino
+68734,4Xtlw8oXkIOvzV7crUBKeZ,Daddy Yankee,Barrio Fino En Directo,Rompe,74,188626,True,0.696,0.858,9,-5.155,1,0.0859,0.0727,3.19e-06,0.0631,0.533,176.061,4,latino
+68977,5x17YrAwajDUCqB8zT9ElY,Tiago PZK;Myke Towers,Portales,Traductor,74,222857,False,0.845,0.776,11,-3.098,0,0.0488,0.111,0.0321,0.0684,0.528,105.018,4,latino
+68354,5YUyW9opqNsMSEzzecZih1,Nicky Jam;J Balvin,Intimo,X,74,172854,False,0.594,0.749,9,-5.298,0,0.056,0.0338,0.00106,0.3,0.694,179.968,4,latino
+68715,1RouRzlg8OKFeqc6LvdxmB,Maluma,F.A.M.E.,Felices los 4,74,230000,False,0.766,0.756,5,-5.861,1,0.132,0.213,0.0,0.349,0.716,94.027,4,latino
+68613,0bBd6K5X4W7t9GyXcaVOA7,J Balvin;Ed Sheeran,Sigue/Forever My Love,Sigue,74,159386,True,0.889,0.641,7,-4.494,1,0.0668,0.0515,2.75e-05,0.19,0.588,87.99,4,latino
+68660,1c2vVx6knoiZHXbJJ9Mk8L,Justin Quiles;Robin Schulz,AEIOU,AEIOU,74,161880,False,0.689,0.856,5,-3.394,0,0.0813,0.0493,0.0,0.232,0.706,126.108,4,latino
+68868,2cXeLEN1eguDzERP5csBUs,Jay Wheeler;DJ Nelson;Myke Towers,Platónicos Mix (DJ Mix),La Curiosidad (feat. Myke Towers) - Mixed,74,93652,False,0.809,0.752,11,-3.638,0,0.206,0.114,0.000187,0.303,0.858,92.14,4,latino
+68552,2B4GHvToeLTOBB4QLzW3Ni,Farruko,La 167,Pepas,74,287120,True,0.762,0.766,7,-3.955,1,0.0343,0.00776,6.98e-05,0.128,0.442,130.001,4,latino
+68614,5Pg4qYTcvCUBBq3jBhKq0t,Daddy Yankee;Pitbull,LEGENDADDY,HOT,74,154493,True,0.898,0.677,11,-6.422,0,0.243,0.0223,0.0,0.35,0.578,130.027,4,latino
+68556,7qCAVkHWZkF44OzOUKf8Cr,Nicky Jam;Enrique Iglesias,Fénix,El Perdón (with Enrique Iglesias),74,205906,False,0.628,0.69,8,-5.83,1,0.0511,0.443,0.0,0.113,0.66,179.908,4,latino
+68864,4FjkjrvfbB3C4eUqWlw3vB,Rvfv;Pablo Mas,NASTU,Mami,74,168367,False,0.707,0.572,1,-5.378,1,0.157,0.497,4.06e-06,0.126,0.456,98.003,4,latino
+68915,48zFZh27QU5qsrBjn4C2FA,Ozuna;Manuel Turizo,Aura,Vaina Loca,74,176133,False,0.754,0.805,6,-4.249,1,0.0752,0.315,0.0,0.203,0.555,93.982,4,latino
+68508,2CGhzWArXQZG86V1Ztv4Q2,Ozuna,OzuTochi,Mañana,73,192320,False,0.865,0.522,6,-4.648,1,0.0761,0.105,0.0154,0.0671,0.692,91.015,4,latino
+68658,5A1vGSsqw0UQCBxHOyPOjG,FMK;Tiago PZK;Mau y Ricky,Prende la Cámara RMX,Prende la Cámara RMX,72,212629,False,0.764,0.711,9,-4.017,1,0.112,0.112,1.75e-06,0.0698,0.798,91.938,4,latino
+68961,1LIqNVhaIgxXUt2eVoIQJ3,Maluma,11:11,HP,72,184435,True,0.837,0.791,4,-3.157,0,0.0773,0.252,1.14e-06,0.188,0.618,91.98,4,latino
+68356,6KuqAtoeVzxAYOaMveLNpH,Daddy Yankee,Dura,Dura,72,200480,False,0.783,0.84,1,-3.416,1,0.051,0.174,0.0,0.412,0.839,95.001,4,latino
+68357,7COfe3P7KgfwDwIRB8LIDw,J Balvin;Willy William,Vibras,Mi Gente,72,185040,False,0.548,0.704,11,-4.838,0,0.0777,0.0168,2.25e-05,0.143,0.288,104.666,4,latino
+68351,0GzuHFG4Ql6DoyxFRnIk3F,Maluma;The Weeknd,Hawái (Remix),Hawái - Remix,72,200481,False,0.766,0.788,6,-3.128,0,0.312,0.105,5.81e-06,0.142,0.609,179.984,4,latino
+68710,2L95U6syP0bV3fkYYOzmiW,El Alfa;Chael Produciendo;CJ;El Cherry Scom,La Mamá de la Mamá,La Mamá de la Mamá,72,219000,True,0.922,0.927,11,-3.025,1,0.105,0.283,0.00331,0.719,0.796,129.978,4,latino
+68822,2gdBsRfuWGwJwe3X5XwZuI,Ozuna,La Copa,La Copa,72,154628,False,0.913,0.803,0,-3.911,1,0.0353,0.116,0.000275,0.111,0.947,126.016,4,latino
+68969,493Rk3iS7rs8uPfpnfm95u,Farruko;Victor Cardenas;Dj Adoni,El Incomprendido,El Incomprendido,71,267546,True,0.754,0.841,11,-3.19,1,0.135,0.113,0.0,0.466,0.541,128.019,4,latino
+68958,0FDMH2ahuIVzCybwHJK9zh,Anuel AA,Real Hasta la Muerte,Quiere Beber,71,187125,False,0.773,0.57,8,-3.482,1,0.113,0.372,0.00524,0.108,0.772,95.038,4,latino
+68803,5Fim1gaXBgsiFfsQAfQSDS,Nicky Jam,Fénix,Hasta el Amanecer,71,198706,False,0.832,0.608,6,-6.042,0,0.0385,0.282,0.0,0.0761,0.589,94.013,4,latino
+68606,2Q4MRMnSAMckugCtR5jgXT,Alvaro Diaz;Rauw Alejandro,Problemón,Problemón,71,193013,False,0.729,0.737,2,-3.727,0,0.064,0.275,7.58e-06,0.137,0.369,91.99,4,latino
+68723,2C2TGgFzrTRIOdQS1vUN5h,J Balvin,Energía,Ginza,70,171093,False,0.73,0.809,5,-6.406,0,0.0876,0.208,0.0013,0.0804,0.825,101.965,4,latino
+68808,5PXsZaT8cOxb4mXrA20PMQ,Ozuna,Nibiru,Baila Baila Baila,70,158760,False,0.837,0.626,11,-5.674,0,0.152,0.0588,0.0,0.252,0.592,99.987,4,latino
+68766,0KkIkfsLEJbrcIhYsCL7L5,Anuel AA;Daddy Yankee;KAROL G;Ozuna;J Balvin,Emmanuel,China,70,301714,False,0.786,0.808,7,-3.702,1,0.0881,0.0846,0.000289,0.0822,0.608,105.029,4,latino
+68652,4BxzNZpcm1j3JczZzGNe2k,Don Omar;Tego Calderón,The Fast And The Furious: Tokyo Drift (Original Motion Picture Soundtrack),Bandoleros,70,305280,False,0.662,0.896,5,-5.311,0,0.251,0.318,0.0,0.186,0.79,90.622,4,latino
+68717,1bFgMkoazsyZGSflpCzYm6,Farruko;Tiësto,Pepas (Tiësto Remix),Pepas - Tiësto Remix,70,223384,True,0.769,0.688,7,-4.378,1,0.0501,0.00215,0.107,0.088,0.387,130.026,4,latino
+68300,4ipnJyDU3Lq15qBAYNqlqK,J Balvin;Willy William,Mi Gente,Mi Gente,70,189440,False,0.774,0.687,11,-4.818,0,0.0584,0.0179,1.17e-05,0.128,0.308,104.959,4,latino
+68970,0JAZWvvqttGFm4UMDsPQXC,Ozuna;Camilo,Enoc,Despeinada,70,224186,False,0.734,0.775,8,-3.855,1,0.0614,0.186,0.000542,0.123,0.72,166.039,4,latino
+68957,4FvJysAX0y4TfHE9CIprrx,DELLAFUENTE;Rvfv,K alegría,K alegría,70,159215,False,0.777,0.787,10,-5.472,0,0.0964,0.104,0.0161,0.0654,0.88,110.02,4,latino
+68400,4sCSUQnWQ6HJsOMjfPicdn,Don Omar;Lucenzo,Fast Five (Original Motion Picture Soundtrack),Danza Kuduro,70,198386,False,0.701,0.896,0,-6.459,1,0.0814,0.0866,0.0,0.0572,0.896,130.067,4,latino
+68758,6MJUCumnQsQEKbCy28tbCP,Daddy Yankee;Anuel AA,Adictiva,Adictiva,70,207853,False,0.788,0.771,4,-3.206,0,0.0563,0.291,5.62e-05,0.172,0.701,99.038,4,latino
+68956,0nDGgXV5oI8TdAmWjUx65l,J Balvin;Ryan Castro,Nivel De Perreo,Nivel De Perreo,70,151573,True,0.802,0.828,1,-3.601,1,0.0756,0.0217,0.0,0.0692,0.722,91.983,4,latino
+68509,5b1je14Oz92lpIlIMLieWw,Farruko,Viaje,Viaje,70,303626,True,0.705,0.799,0,-4.776,0,0.0347,0.0357,0.417,0.0643,0.658,122.018,4,latino
+68358,1q0PYXTbDsirp2l74ng6pn,J Balvin;Skrillex,JOSE,In Da Getto,70,130666,False,0.924,0.723,8,-3.142,1,0.0466,0.0177,2.61e-05,0.113,0.643,126.998,4,latino

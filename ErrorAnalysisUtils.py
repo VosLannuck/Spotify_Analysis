@@ -95,6 +95,13 @@ def plotHistOfTheTarget(true: np.ndarray, pred: np.ndarray):
     sns.histplot(pred, label="Train Pred", color="black", bins=30)
     plt.show()
 
+def printTheValuesCount(df_true: pd.Series,
+                        df_pred: pd.Series):
+    df_pred = df_pred.values.astype(np.int32)
+    sns.histplot(df_true, label="True Popularity")
+    sns.histplot(df_pred, label="Predicted Popularity")
+    plt.legend()
+    plt.show()
 
 def plotErrorAnalysisCat_num(df_real: pd.DataFrame, cat_column: str,
                       target_column: str, pred_colum: str,
@@ -107,20 +114,23 @@ def plotErrorAnalysisCat_num(df_real: pd.DataFrame, cat_column: str,
                                               limit_resid_2)
     filtered_rate: pd.DataFrame = groupedAndSorted(filtered_res, cat_column,
                                                    target_column )
-
+    """ 
     percentage_df = getPercentageBasedCol(filtered_res,
                                           cat_column,
                                           filtered_rate.index,
                                           target_column,
                                           bigger=isBigger,
                                           n=threshold)[:n_pie]
-    print(percentage_df)
+    """
+    #print(percentage_df)
     plotResidualOfColumns(real_array,
                           pred_array)
+    printTheValuesCount(df_real[target_column],
+                        df_real[pred_colum])
     #makePie(percentage_df['percent'], labels=percentage_df[cat_column],
      #       title="Not")
     
-    makeHorizontalBar(y=percentage_df['percent'], x=percentage_df[cat_column],ylim=(0, 60))
+    #makeHorizontalBar(y=percentage_df['percent'], x=percentage_df[cat_column],ylim=(0, 60))
 
 def plotHistOfPrediction(df_real_1, df_real_2,
                          target_column: str="popularity",

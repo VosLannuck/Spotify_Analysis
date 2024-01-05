@@ -50,6 +50,7 @@ def run(config: Union[DictConfig, ListConfig],
         target: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
     main_df: pd.DataFrame = pd.read_csv(config.data.datasetPath, index_col=[0])
     num_cols: List[str] = [
+        config.constant.energy_str,
         config.constant.danceability_str,
         config.constant.loudness_str,
         config.constant.speechiness_str,
@@ -58,8 +59,6 @@ def run(config: Union[DictConfig, ListConfig],
         config.constant.popularity_str,
         config.constant.liveness_str,
         config.constant.valence_str,
-        config.constant.tempo_str,
-        config.constant.duration_str
     ]
 
     cat_cols: List[str] = [
@@ -70,7 +69,13 @@ def run(config: Union[DictConfig, ListConfig],
     drop_cols: List[str] = [
         config.constant.track_id_str,
         config.constant.album_name_str,
-        config.constant.track_name_str
+        config.constant.track_name_str,
+        config.constant.tempo_str,
+        config.constant.duration_str,
+        config.constant.mode_str,
+        config.constant.key_str,
+        config.constant.timesignature_str,
+        config.constant.explicit_str,
     ]
 
     dropNa(main_df)
@@ -89,7 +94,111 @@ def run(config: Union[DictConfig, ListConfig],
 
     return x, y, scaler, cat_encoders
 
+def run_cat(config: Union[DictConfig, ListConfig],
+        target: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    main_df: pd.DataFrame = pd.read_csv(config.data.datasetPath, index_col=[0])
+    num_cols: List[str] = [
+        config.constant.danceability_str,
+        config.constant.loudness_str,
+        config.constant.speechiness_str,
+        config.constant.acousticness_str,
+        config.constant.instrumentallness_str,
+        config.constant.popularity_str,
+        config.constant.liveness_str,
+        config.constant.valence_str,
+        config.constant.energy_str
+    ]
 
+    cat_cols: List[str] = [
+        config.constant.artists_str,
+        config.constant.track_genre_str,
+        config.constant.track_name_str,
+    ]
+    drop_cols: List[str] = [
+        config.constant.danceability_str,
+        config.constant.loudness_str,
+        config.constant.explicit_str,
+        config.constant.energy_str,
+        config.constant.speechiness_str,
+        config.constant.acousticness_str,
+        config.constant.instrumentallness_str,
+        config.constant.liveness_str,
+        config.constant.valence_str,
+        config.constant.track_id_str,
+        config.constant.album_name_str,
+        config.constant.tempo_str,
+        config.constant.duration_str,
+        config.constant.mode_str,
+        config.constant.key_str,
+        config.constant.timesignature_str
+    ]
+
+    dropNa(main_df)
+    num_df: pd.DataFrame = main_df.loc[:, num_cols]
+    scaled_df, scaler = normalizeDataset(num_df, y_col=target)
+    scaled_df.reset_index(drop=True, inplace=True)
+    main_df.reset_index(drop=True, inplace=True)
+    sec_main_df: pd.DataFrame = concatDataset(main_df, scaled_df, num_cols)
+
+    cat_encoders, encoder_results = encodeCategorical(sec_main_df, cat_cols)
+    for result, col in zip(encoder_results, cat_cols):
+        sec_main_df[col] = result
+
+    x: pd.DataFrame = sec_main_df.drop(drop_cols, axis=1)
+    y: pd.DataFrame = main_df[target]
+    print(x.head(2))
+    return x, y, scaler, cat_encoders
+
+def run_num(config: Union[DictConfig, ListConfig],
+        target: str) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    main_df: pd.DataFrame = pd.read_csv(config.data.datasetPath, index_col=[0])
+    num_cols: List[str] = [
+        config.constant.danceability_str,
+        config.constant.loudness_str,
+        config.constant.speechiness_str,
+        config.constant.acousticness_str,
+        config.constant.instrumentallness_str,
+        config.constant.popularity_str,
+        config.constant.liveness_str,
+        config.constant.valence_str,
+        config.constant.energy_str
+    ]
+
+    cat_cols: List[str] = [
+        config.constant.artists_str,
+        config.constant.track_genre_str,
+        config.constant.explicit_str
+    ]
+
+    drop_cols: List[str] = [
+        config.constant.artists_str,
+        config.constant.track_genre_str,
+        config.constant.explicit_str,
+        config.constant.track_id_str,
+        config.constant.album_name_str,
+        config.constant.track_name_str,
+        config.constant.tempo_str,
+        config.constant.duration_str,
+        config.constant.mode_str,
+        config.constant.key_str,
+        config.constant.timesignature_str
+    ]
+
+    dropNa(main_df)
+    num_df: pd.DataFrame = main_df.loc[:, num_cols]
+    scaled_df, scaler = normalizeDataset(num_df, y_col=target)
+    scaled_df.reset_index(drop=True, inplace=True)
+    main_df.reset_index(drop=True, inplace=True)
+    sec_main_df: pd.DataFrame = concatDataset(main_df, scaled_df, num_cols)
+
+    cat_encoders, encoder_results = encodeCategorical(sec_main_df, cat_cols)
+    for result, col in zip(encoder_results, cat_cols):
+        sec_main_df[col] = result
+
+    x: pd.DataFrame = sec_main_df.drop(drop_cols, axis=1)
+    y: pd.DataFrame = main_df[target]
+    print(x.head(2))
+    return x, y, scaler, cat_encoders
 """
 if __name__ == "__main__":
     _, x, y = run()

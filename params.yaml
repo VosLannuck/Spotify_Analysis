@@ -12,6 +12,9 @@ constant:
   valence_str: "valence"
   tempo_str: "tempo"
   duration_str: "duration_ms"
+  timesignature_str: "time_signature"
+  key_str: "key"
+  mode_str: "mode"
 
   # Cat columns
   track_id_str: "track_id"

@@ -542,6 +542,50 @@ def runAllModels(config: Union[DictConfig, ListConfig],
                                ignore_index=True)
     return all_result
 
+def runAllModels_cat(config: Union[DictConfig, ListConfig],
+                 modelNames: List[ModelName], split: int,
+                 target: str):
+
+    all_result: pd.DataFrame = pd.DataFrame(columns=['model', 'rmse_train', 'rmse_val'])
+    x, y, _, _ = DataPreps.run_cat(config, target)
+    x, y = x.values, y.values
+    cv = makeSplit(x, y, n_splits=split)
+    for model_name in modelNames:
+        model_name = parseToModelName(config, model_name)
+        model = preserveModel(model_name,
+                              config)
+
+        rmse_train, rmse_val = allFit(x, y, cv, config, model)
+        new_observation = {"model": model_name,
+                           "rmse_train": rmse_train,
+                           "rmse_val": rmse_val}
+
+        all_result = pd.concat([all_result, pd.DataFrame(new_observation, index=[0])],
+                               ignore_index=True)
+    return all_result
+
+
+def runAllModels_num(config: Union[DictConfig, ListConfig],
+                 modelNames: List[ModelName], split: int,
+                 target: str):
+
+    all_result: pd.DataFrame = pd.DataFrame(columns=['model', 'rmse_train', 'rmse_val'])
+    x, y, _, _ = DataPreps.run_num(config, target)
+    x, y = x.values, y.values
+    cv = makeSplit(x, y, n_splits=split)
+    for model_name in modelNames:
+        model_name = parseToModelName(config, model_name)
+        model = preserveModel(model_name,
+                              config)
+
+        rmse_train, rmse_val = allFit(x, y, cv, config, model)
+        new_observation = {"model": model_name,
+                           "rmse_train": rmse_train,
+                           "rmse_val": rmse_val}
+
+        all_result = pd.concat([all_result, pd.DataFrame(new_observation, index=[0])],
+                               ignore_index=True)
+    return all_result
 """
 if __name__ == "__main__":
     run_models()
